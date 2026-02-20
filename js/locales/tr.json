@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Rizz Puanın Kaç? | Karizma Testi",
+    "description": "12 sosyal senaryoyla karizma puanını ölç. 0-100 arası puan ve çekicilik arketipini keşfet!"
+  },
+  "app": {
+    "title": "Rizz Puanın Kaç?",
+    "subtitle": "12 sosyal senaryoyla karizma ve çekiciliğini ölç",
+    "warning": "Bu test yalnızca eğlence amaçlıdır ve gerçek sosyal becerileri doğru ölçmez.",
+    "start": "Teste Başla"
+  },
+  "questions": {
+    "q1": {
+      "text": "Odanın karşı tarafından çekici biri sana bakıyor. Ne yaparsın?",
+      "options": {
+        "a": "Özgüvenle gidip sohbet başlatırsın",
+        "b": "Gülümser ve göz teması kurarsın, onun gelmesini beklersin",
+        "c": "Hemen bakışını kaçırır ve fark etmemiş olmasını umarsın",
+        "d": "Telefona bakar gibi yapıp tüm temastan kaçınırsın"
+      }
+    },
+    "q2": {
+      "text": "Hoşlandığın kişi belirsiz bir mesaj atar: 'Bu akşam müsait misin?' Nasıl cevap verirsin?",
+      "options": {
+        "a": "30 dakika düşünür, ekran görüntüsü alıp gruba atarsın",
+        "b": "Şık bir şekilde cevaplarsın: 'Planına bağlı'",
+        "c": "Panik olur ve iki saat okundu bırakırsın",
+        "d": "'Evet, neden?' — rahat ve soğukkanlı"
+      }
+    },
+    "q3": {
+      "text": "Kimseyi tanımadığın bir partidessin. Hamlen ne?",
+      "options": {
+        "a": "Ev sahibini bulup tanıştırmasını istersin",
+        "b": "Atıştırmalık masasının yanında telefona bakarsın",
+        "c": "DJ olur veya oyun başlatırsın — ortamı yönetirsin",
+        "d": "Sessizce gözlemler ve sadece konuşulunca cevap verirsin"
+      }
+    },
+    "q4": {
+      "text": "Randevu arkadaşın yanlışlıkla içeceğini döker. Nasıl tepki verirsin?",
+      "options": {
+        "a": "Garip bir sessizlikle izlersin",
+        "b": "'Sorun değil' dersin ve hızla temizlemeye yardım edersin",
+        "c": "Ortamı yumuşatmak için espri yaparsın",
+        "d": "Güler, kendininkinden de biraz döker, 'Şimdi eşitiz' dersin"
+      }
+    },
+    "q5": {
+      "text": "Arkadaşın senden kanat adam olmanı ister. Stratejin ne?",
+      "options": {
+        "a": "Arkadaşını övüp sonra nazikçe çekilirsin",
+        "b": "Yardım etmeye çalışır ama yanlışlıkla kendini ön plana çıkarırsın",
+        "c": "Uzaktan arkadaşını gösterip başparmak kaldırırsın",
+        "d": "Reddedersin — bu senin tarzın değil"
+      }
+    },
+    "q6": {
+      "text": "İlk buluşmada garip bir sessizlik oluyor. Ne yaparsın?",
+      "options": {
+        "a": "Rastgele derin bir soru sorarsın: 'En büyük korkun ne?'",
+        "b": "Daha önce onun hakkında fark ettiğin bir şeyi doğal biçimde söylersin",
+        "c": "Oturup yemeğin gelmesi için dua edersin",
+        "d": "Garip sessizlikler hakkında öz-eleştirel bir espri yaparsın"
+      }
+    },
+    "q7": {
+      "text": "Tanımadığın biri kıyafetini övüyor. Nasıl tepki verirsin?",
+      "options": {
+        "a": "Kendine bakıp şaşkın bir şekilde 'Bu mu? Eski bir şey...' dersin",
+        "b": "'Teşekkürler' diye mırıldanıp hızla uzaklaşırsın",
+        "c": "'Teşekkürler! Senin tarzın da çok güzel' deyip sohbet başlatırsın",
+        "d": "Geniş bir gülümsemeyle 'Günümü güzelleştirdin' dersin"
+      }
+    },
+    "q8": {
+      "text": "Eski sevgilinin çekici arkadaşı ilgi göstermeye başlıyor. Hamlen ne?",
+      "options": {
+        "a": "Doğal bir şekilde flört edersin — hayat kısa",
+        "b": "Arkadaş canlısısın ama uygun mesafeyi korursun",
+        "c": "Telaşlanıp konu değiştirirsin",
+        "d": "Tamamen görmezden gelir, fark etmemiş gibi davranırsın"
+      }
+    },
+    "q9": {
+      "text": "Arkadaşının partisinde kadeh kaldırman gerekiyor. Ne olur?",
+      "options": {
+        "a": "Donar ve sadece 'Şerefe' dersin",
+        "b": "Kısa ve tatlı bir şey hazırlarsın, biraz gergin",
+        "c": "Komik bir anı anlatıp herkesi güldürürsün",
+        "d": "Doğaçlama içten bir konuşma yapıp herkesi etkilersin"
+      }
+    },
+    "q10": {
+      "text": "Hoşlandığın kişi harika bir selfie paylaşıyor. Nasıl yaklaşırsın?",
+      "options": {
+        "a": "Kalp emojisiyle tepki verir ve fark etmesini umarsın",
+        "b": "Etkileşime girmezsin — umutsuz görünmek istemezsin",
+        "c": "Fotoğraftan doğal bir şekilde bahseden espritüel bir DM atarsın",
+        "d": "Beğenir ve hayatına devam edersin"
+      }
+    },
+    "q11": {
+      "text": "Arkadaşın seni güzel birine gitmeye zorluyor. Ne yaparsın?",
+      "options": {
+        "a": "'Asla' deyip kesinlikle reddedersin",
+        "b": "Garip bir şekilde yaklaşıp ne diyeceğini unutursun",
+        "c": "Meydan okumaya gerek yok — zaten yapacaktın",
+        "d": "Meydan okumayı kabul eder, gidip harika bir sohbet sürdürürsün"
+      }
+    },
+    "q12": {
+      "text": "Harika bir buluşma sona eriyor. Nasıl vedalaşırsın?",
+      "options": {
+        "a": "Sıcak bir kucaklama, unutulmaz bir söz ve merak bırakırsın",
+        "b": "Arabanın öbür tarafından garip bir el sallama",
+        "c": "'Çok eğlendim, tekrarlayalım' diye samimi bir gülümsemeyle söylersin",
+        "d": "Sadece 'Hoşça kal' deyip hızla yürürsün"
+      }
+    }
+  },
+  "results": {
+    "legendary": {
+      "name": "Efsanevi Rizz",
+      "archetype": "Doğuştan Yetenekli",
+      "description": "Zahmetsiz, manyetik bir çekiciliğin var. İnsanlar sen çabalamadan bile sana çekiliyorlar. Özgüvenin gerçek, espri anlayışın keskin ve sosyal farkındalığın üst düzey. Ortamı bir kitap gibi okur ve etrafındaki herkesi özel hissettirirsin.",
+      "tips": [
+        "Alçakgönüllü kal — çekiciliğin bir armağan, başkalarını yükseltmek için kullan",
+        "Otantik olmaya devam et — sahte özgüven kilometrelerce öteden belli olur",
+        "Daha az özgüvenli arkadaşlarına akıl hocası ol"
+      ]
+    },
+    "certified": {
+      "name": "Sertifikalı Rizzer",
+      "archetype": "Pürüzsüz Operatör",
+      "description": "Sürekli güçlü bir oyunun var. Sosyal ipuçlarını okumayı, doğru zamanda doğru şeyi söylemeyi ve insanları yanında rahat hissettirmeyi biliyorsun. Her zaman en gürültücü olmayabilirsin ama her zaman iz bırakırsın.",
+      "tips": [
+        "Konfor alanını genişlet — tamamen yabancılarla sohbet başlatmayı dene",
+        "Hikaye anlatma yeteneğini geliştir — iyi hikayeler çekiciliği artırır",
+        "Aktif dinlemeyi pratik yap — rizz'in en büyük çarpanı"
+      ]
+    },
+    "solid": {
+      "name": "Sağlam Oyun",
+      "archetype": "Gelişen",
+      "description": "Rahatladıkça güçlenen sağlam bir çekicilik temelinin var. Yavaş başlayabilirsin ama açıldığında insanlar gerçek sıcaklığını ve zekânı görür. Rizz'in yavaş yanan tip — ve bu bir süper güç.",
+      "tips": [
+        "Isınmayı bekleme — en başından 'rahat halin'le ol",
+        "Özgüvenli beden dili pratik yap: göz teması, açık duruş, samimi gülümsemeler",
+        "Unutma: rizz performans değil, başkalarını iyi hissettirmek"
+      ]
+    },
+    "undercover": {
+      "name": "Gizli Rizz",
+      "archetype": "Uyuyan Ajan",
+      "description": "Çekiciliğin var — sadece yüzeyin altında gizli. Seni tanıdıktan sonra insanların sevdiği harika özelliklerin var ama ilk izlenimde her zaman parlamıyor. Rizz'in küçük gruplarda ve bire birde aktifleşiyor.",
+      "tips": [
+        "Küçük başla: günde bir iltifatla özgüven kasını çalıştır",
+        "Sosyal durumlar için birkaç sohbet başlatıcısı hazırla",
+        "Başkalarına gerçek merak göster — takip soruları sor"
+      ]
+    },
+    "unspoken": {
+      "name": "Söylenmemiş Rizz",
+      "archetype": "Gizem",
+      "description": "Enerjin kelimelerden daha yüksek sesle konuşuyor. En dışa dönük kişi olmayabilirsin ama sende merak uyandıran bir aura var. Bazı insanlar sessiz özgüvenine ve gizemli enerjine çekilir. Rizz'in ne söylediğinle değil, kim olduğunla ilgili.",
+      "tips": [
+        "Sessiz gücünü kabullen — herkesin partinin yıldızı olması gerekmiyor",
+        "Yavaşça açılmaya çalış — her sohbette kişisel bir şey paylaş",
+        "Gizemin çekici ama bir duvara dönüşmesine izin verme"
+      ]
+    }
+  },
+  "result": {
+    "yourScore": "Rizz Puanın",
+    "description": "Açıklama",
+    "tips": "Çekicilik İpuçları",
+    "retake": "Tekrar Dene"
+  },
+  "share": {
+    "twitter": "X'te Paylaş",
+    "copyUrl": "Bağlantıyı Kopyala",
+    "copied": "Bağlantı kopyalandı!",
+    "text": "Rizz Puanım: {score}/100 — {tier}! Seninki kaç?"
+  },
+  "a11y": {
+    "skip": "İçeriğe geç"
+  }
+}

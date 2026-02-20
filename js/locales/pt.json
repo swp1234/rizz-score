@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Qual é o seu Rizz Score? | Teste de Carisma",
+    "description": "Meça seu carisma com 12 cenários sociais. Pontue de 0 a 100 e descubra seu arquétipo de charme!"
+  },
+  "app": {
+    "title": "Qual é o seu Rizz Score?",
+    "subtitle": "12 cenários sociais para medir seu carisma e charme",
+    "warning": "Este teste é apenas para entretenimento e não mede com precisão habilidades sociais reais.",
+    "start": "Começar Teste"
+  },
+  "questions": {
+    "q1": {
+      "text": "Alguém atraente olha para você do outro lado da sala. O que você faz?",
+      "options": {
+        "a": "Vai até lá com confiança e puxa conversa",
+        "b": "Sorri e mantém contato visual, esperando que a pessoa venha até você",
+        "c": "Desvia o olhar rapidamente e torce para não ter sido notado",
+        "d": "Finge estar no celular e evita qualquer contato"
+      }
+    },
+    "q2": {
+      "text": "Seu crush manda uma mensagem vaga: 'Tá livre hoje à noite?' Como você responde?",
+      "options": {
+        "a": "Pensa 30 minutos, tira print e manda no grupo",
+        "b": "Responde com estilo: 'Depende do que você tem em mente'",
+        "c": "Entra em pânico e deixa no vácuo por duas horas",
+        "d": "Diz 'Tô sim, por quê?' — casual e tranquilo"
+      }
+    },
+    "q3": {
+      "text": "Você está numa festa onde não conhece ninguém. Qual é sua jogada?",
+      "options": {
+        "a": "Encontra o anfitrião e pede para ser apresentado",
+        "b": "Fica perto da mesa de comida mexendo no celular",
+        "c": "Vira o DJ ou começa um jogo — assume o controle",
+        "d": "Observa quieto e só fala quando falam com você"
+      }
+    },
+    "q4": {
+      "text": "Seu date derruba a bebida sem querer. Como você lida?",
+      "options": {
+        "a": "Fica olhando em silêncio constrangedor",
+        "b": "Diz 'Tudo bem' e ajuda a limpar rapidamente",
+        "c": "Faz uma piada para aliviar o clima",
+        "d": "Ri, derruba um pouco da sua também e diz 'Agora estamos quites'"
+      }
+    },
+    "q5": {
+      "text": "Um amigo pede para você ser o wingman. Qual é a estratégia?",
+      "options": {
+        "a": "Elogia o amigo e depois sai de fininho da conversa",
+        "b": "Tenta ajudar mas acaba roubando a cena",
+        "c": "Aponta para o amigo de longe e faz um joinha",
+        "d": "Recusa — não é sua praia"
+      }
+    },
+    "q6": {
+      "text": "Silêncio constrangedor no primeiro encontro. O que você faz?",
+      "options": {
+        "a": "Faz uma pergunta profunda aleatória: 'Qual é seu maior medo?'",
+        "b": "Menciona naturalmente algo que notou sobre a pessoa antes",
+        "c": "Fica sentado rezando para a comida chegar",
+        "d": "Faz uma piada autodepreciativa sobre silêncios constrangedores"
+      }
+    },
+    "q7": {
+      "text": "Um desconhecido elogia seu look. Como você reage?",
+      "options": {
+        "a": "Olha para si mesmo confuso e diz 'Isso? É velho...'",
+        "b": "Murmura 'obrigado' e sai andando rápido",
+        "c": "Diz 'Obrigado! Gostei do seu estilo também' e puxa papo",
+        "d": "Abre um sorrisão e diz 'Você alegrou meu dia'"
+      }
+    },
+    "q8": {
+      "text": "O amigo atraente do seu ex começa a demonstrar interesse. Sua jogada?",
+      "options": {
+        "a": "Flerta de volta naturalmente — a vida é curta",
+        "b": "É amigável mas mantém distância apropriada",
+        "c": "Fica sem graça e muda de assunto",
+        "d": "Ignora completamente e finge que não percebeu"
+      }
+    },
+    "q9": {
+      "text": "Você precisa fazer um brinde na festa de um amigo. O que acontece?",
+      "options": {
+        "a": "Trava e só diz 'Saúde'",
+        "b": "Prepara algo curto e fofo, um pouco nervoso",
+        "c": "Conta uma história engraçada que arranca risadas",
+        "d": "Improvisa um discurso emocionante que toca todos"
+      }
+    },
+    "q10": {
+      "text": "Alguém que te interessa posta uma selfie incrível. Como você chega junto?",
+      "options": {
+        "a": "Reage com coração e torce para que perceba",
+        "b": "Não interage — não quer parecer desesperado",
+        "c": "Manda um DM esperto que menciona a foto naturalmente",
+        "d": "Só curte a foto e segue com a vida"
+      }
+    },
+    "q11": {
+      "text": "Seu amigo desafia você a ir falar com alguém bonito. O que você faz?",
+      "options": {
+        "a": "Diz 'Nem pensar' e recusa firmemente",
+        "b": "Vai até lá desajeitado e dá branco total",
+        "c": "Não precisa de desafio — já ia fazer isso",
+        "d": "Aceita o desafio e manda bem na conversa"
+      }
+    },
+    "q12": {
+      "text": "Fim de um encontro incrível. Como você se despede?",
+      "options": {
+        "a": "Um abraço caloroso, diz algo memorável e deixa querendo mais",
+        "b": "Acena desajeitado do outro lado do carro",
+        "c": "Diz 'Me diverti muito, vamos repetir' com um sorriso genuíno",
+        "d": "Só diz 'Tchau' e sai andando rápido"
+      }
+    }
+  },
+  "results": {
+    "legendary": {
+      "name": "Rizz Lendário",
+      "archetype": "O Natural",
+      "description": "Você tem um charme magnético e sem esforço. As pessoas são atraídas por você sem que precise tentar. Sua confiança é genuína, seu humor é afiado e sua percepção social é excepcional. Você lê ambientes como um livro e faz todos ao seu redor se sentirem especiais.",
+      "tips": [
+        "Mantenha a humildade — seu charme é um dom, use-o para elevar os outros",
+        "Continue sendo autêntico — as pessoas percebem confiança falsa rapidamente",
+        "Seja mentor dos seus amigos menos confiantes — compartilhe a sabedoria do rizz"
+      ]
+    },
+    "certified": {
+      "name": "Rizzer Certificado",
+      "archetype": "O Operador Suave",
+      "description": "Você tem um jogo consistentemente forte. Sabe ler sinais sociais, dizer a coisa certa na hora certa e fazer as pessoas se sentirem confortáveis ao seu redor. Pode não ser sempre o mais barulhento, mas sempre deixa uma impressão.",
+      "tips": [
+        "Expanda sua zona de conforto — tente iniciar conversas com total desconhecidos",
+        "Trabalhe na arte de contar histórias — boas histórias amplificam o charme",
+        "Pratique escuta ativa — é o multiplicador definitivo do rizz"
+      ]
+    },
+    "solid": {
+      "name": "Jogo Sólido",
+      "archetype": "O que Cresce",
+      "description": "Você tem uma boa base de charme que fica mais forte quanto mais confortável está. Pode começar devagar, mas quando se abre, as pessoas veem seu calor e sagacidade genuínos. Seu rizz é de queima lenta — e isso é um superpoder.",
+      "tips": [
+        "Não espere para se aquecer — tente ser seu 'eu confortável' desde o início",
+        "Pratique linguagem corporal confiante: contato visual, postura aberta, sorrisos genuínos",
+        "Lembre-se: rizz é fazer os outros se sentirem bem, não performar"
+      ]
+    },
+    "undercover": {
+      "name": "Rizz Disfarçado",
+      "archetype": "O Agente Adormecido",
+      "description": "Seu charme está lá — só está escondido sob a superfície. Você tem qualidades incríveis que as pessoas amam quando te conhecem, mas nem sempre brilham na primeira impressão. Seu rizz se ativa em grupos pequenos e um a um.",
+      "tips": [
+        "Comece pequeno: um elogio por dia para fortalecer seu músculo de confiança",
+        "Prepare alguns temas de conversa para situações sociais",
+        "Foque na curiosidade genuína sobre os outros — faça perguntas complementares"
+      ]
+    },
+    "unspoken": {
+      "name": "Rizz Silencioso",
+      "archetype": "O Mistério",
+      "description": "Sua vibe fala mais alto que palavras. Pode não ser a pessoa mais extrovertida, mas há uma aura intrigante sobre você. Algumas pessoas são atraídas pela sua confiança silenciosa e energia misteriosa. Seu rizz não é sobre o que você diz — é sobre quem você é.",
+      "tips": [
+        "Abrace sua força silenciosa — nem todos precisam ser a alma da festa",
+        "Trabalhe em se abrir gradualmente — compartilhe algo pessoal em cada conversa",
+        "Seu mistério é atraente, mas não deixe que se torne uma barreira"
+      ]
+    }
+  },
+  "result": {
+    "yourScore": "Seu Rizz Score",
+    "description": "Descrição",
+    "tips": "Dicas de Charme",
+    "retake": "Refazer Teste"
+  },
+  "share": {
+    "twitter": "Compartilhar no X",
+    "copyUrl": "Copiar Link",
+    "copied": "Link copiado!",
+    "text": "Meu Rizz Score: {score}/100 — {tier}! Qual é o seu?"
+  },
+  "a11y": {
+    "skip": "Pular para o conteúdo"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Wie hoch ist dein Rizz Score? | Charisma-Test",
+    "description": "Miss dein Charisma mit 12 sozialen Szenarien. Punktzahl 0-100 und entdecke deinen Charme-Archetyp!"
+  },
+  "app": {
+    "title": "Wie hoch ist dein Rizz Score?",
+    "subtitle": "12 soziale Szenarien, um dein Charisma und deinen Charme zu messen",
+    "warning": "Dieser Test dient nur der Unterhaltung und misst keine echten sozialen Fähigkeiten.",
+    "start": "Test starten"
+  },
+  "questions": {
+    "q1": {
+      "text": "Jemand Attraktives schaut dich von der anderen Seite des Raumes an. Was machst du?",
+      "options": {
+        "a": "Gehst selbstbewusst rüber und fängst ein Gespräch an",
+        "b": "Lächelst und hältst Blickkontakt, wartest, dass die Person kommt",
+        "c": "Schaust schnell weg und hoffst, dass du nicht bemerkt wurdest",
+        "d": "Tust so, als wärst du am Handy und vermeidest jeden Kontakt"
+      }
+    },
+    "q2": {
+      "text": "Dein Crush schickt eine vage Nachricht: 'Hast du heute Abend Zeit?' Wie antwortest du?",
+      "options": {
+        "a": "Denkst 30 Minuten nach, machst einen Screenshot und schickst ihn in die Gruppe",
+        "b": "Antwortest smooth: 'Kommt drauf an, was du vorhast'",
+        "c": "Gerätst in Panik und lässt zwei Stunden auf Gelesen",
+        "d": "Sagst 'Ja, warum?' — locker und cool"
+      }
+    },
+    "q3": {
+      "text": "Du bist auf einer Party, wo du niemanden kennst. Was ist dein Zug?",
+      "options": {
+        "a": "Findest den Gastgeber und bittest um Vorstellung",
+        "b": "Stehst am Snacktisch und scrollst durchs Handy",
+        "c": "Wirst zum DJ oder startest ein Spiel — übernimmst die Stimmung",
+        "d": "Beobachtest leise und sprichst nur, wenn du angesprochen wirst"
+      }
+    },
+    "q4": {
+      "text": "Dein Date verschüttet versehentlich sein Getränk. Wie gehst du damit um?",
+      "options": {
+        "a": "Starrst in peinlicher Stille",
+        "b": "Sagst 'Kein Problem' und hilfst schnell beim Aufwischen",
+        "c": "Machst einen Witz, um die Stimmung aufzulockern",
+        "d": "Lachst, verschüttest etwas von deinem und sagst 'Jetzt sind wir quitt'"
+      }
+    },
+    "q5": {
+      "text": "Ein Freund bittet dich, Wingman zu sein. Was ist deine Strategie?",
+      "options": {
+        "a": "Machst den Freund stark und ziehst dich dann elegant zurück",
+        "b": "Versuchst zu helfen, aber machst es versehentlich über dich",
+        "c": "Zeigst aus der Ferne auf den Freund und gibst Daumen hoch",
+        "d": "Lehnst ab — das ist nicht dein Ding"
+      }
+    },
+    "q6": {
+      "text": "Peinliche Stille beim ersten Date. Was machst du?",
+      "options": {
+        "a": "Stellst eine zufällige tiefe Frage: 'Was ist deine größte Angst?'",
+        "b": "Erwähnst smooth etwas, das dir vorher aufgefallen ist",
+        "c": "Sitzt da und betest, dass das Essen kommt",
+        "d": "Machst einen selbstironischen Witz über peinliche Stille"
+      }
+    },
+    "q7": {
+      "text": "Ein Fremder macht dir ein Kompliment für dein Outfit. Wie reagierst du?",
+      "options": {
+        "a": "Schaust verwirrt an dir runter und sagst 'Das hier? Das ist alt...'",
+        "b": "Murmelst 'Danke' und gehst schnell weiter",
+        "c": "Sagst 'Danke! Dein Stil gefällt mir auch' und fängst an zu quatschen",
+        "d": "Lächelst breit und sagst 'Du hast mir den Tag gemacht'"
+      }
+    },
+    "q8": {
+      "text": "Der attraktive Freund deines Ex zeigt Interesse an dir. Dein Zug?",
+      "options": {
+        "a": "Flirtest natürlich zurück — das Leben ist kurz",
+        "b": "Bist freundlich aber hältst angemessenen Abstand",
+        "c": "Wirst nervös und wechselst das Thema",
+        "d": "Ignorierst es komplett und tust so, als hättest du nichts bemerkt"
+      }
+    },
+    "q9": {
+      "text": "Du musst auf der Party eines Freundes einen Toast ausbringen. Was passiert?",
+      "options": {
+        "a": "Du erstarrst und sagst nur 'Prost'",
+        "b": "Bereitest etwas Kurzes und Nettes vor, etwas nervös",
+        "c": "Erzählst eine lustige Geschichte, die alle zum Lachen bringt",
+        "d": "Improvisierst eine herzliche Rede, die alle berührt"
+      }
+    },
+    "q10": {
+      "text": "Jemand, den du magst, postet ein tolles Selfie. Wie slideest du rein?",
+      "options": {
+        "a": "Reagierst mit einem Herz-Emoji und hoffst, dass es bemerkt wird",
+        "b": "Interagierst nicht — willst nicht verzweifelt wirken",
+        "c": "Schickst eine witzige DM, die das Foto natürlich erwähnt",
+        "d": "Likest einfach das Foto und machst weiter"
+      }
+    },
+    "q11": {
+      "text": "Dein Freund fordert dich heraus, mit jemandem Attraktivem zu reden. Was machst du?",
+      "options": {
+        "a": "Sagst 'Auf keinen Fall' und lehnst ab",
+        "b": "Gehst unbeholfen hin und weißt plötzlich nicht mehr, was du sagen sollst",
+        "c": "Brauchst keine Herausforderung — hattest es sowieso vor",
+        "d": "Nimmst die Herausforderung an und führst ein tolles Gespräch"
+      }
+    },
+    "q12": {
+      "text": "Ende eines tollen Dates. Wie verabschiedest du dich?",
+      "options": {
+        "a": "Warme Umarmung, etwas Unvergessliches sagen, Lust auf mehr machen",
+        "b": "Unbeholfenes Winken über das Auto hinweg",
+        "c": "'Hat Spaß gemacht, lass es wiederholen' mit ehrlichem Lächeln",
+        "d": "Sagst nur 'Tschüss' und gehst schnell"
+      }
+    }
+  },
+  "results": {
+    "legendary": {
+      "name": "Legendärer Rizz",
+      "archetype": "Das Naturtalent",
+      "description": "Du hast mühelosen, magnetischen Charme. Menschen fühlen sich zu dir hingezogen, ohne dass du es versuchst. Dein Selbstbewusstsein ist echt, dein Humor ist scharf und dein soziales Gespür ist herausragend. Du liest Räume wie ein Buch und gibst jedem das Gefühl, besonders zu sein.",
+      "tips": [
+        "Bleib bescheiden — dein Charme ist ein Geschenk, nutze ihn, um andere zu unterstützen",
+        "Bleib authentisch — falsches Selbstbewusstsein wird sofort durchschaut",
+        "Sei Mentor für weniger selbstbewusste Freunde"
+      ]
+    },
+    "certified": {
+      "name": "Zertifizierter Rizzer",
+      "archetype": "Der Smooth Operator",
+      "description": "Du hast konstant starkes Spiel. Du weißt, wie man soziale Signale liest, das Richtige zur richtigen Zeit sagt und Menschen sich in deiner Nähe wohlfühlen lässt. Vielleicht nicht immer der Lauteste, aber du hinterlässt immer Eindruck.",
+      "tips": [
+        "Erweitere deine Komfortzone — versuche Gespräche mit völlig Fremden zu starten",
+        "Arbeite am Geschichtenerzählen — gute Geschichten verstärken den Charme",
+        "Übe aktives Zuhören — der ultimative Rizz-Multiplikator"
+      ]
+    },
+    "solid": {
+      "name": "Solides Spiel",
+      "archetype": "Der Wachsende",
+      "description": "Du hast eine gute Charme-Basis, die stärker wird, je wohler du dich fühlst. Vielleicht fängst du langsam an, aber wenn du dich öffnest, sehen die Leute deine echte Wärme und deinen Witz. Dein Rizz ist ein Slow Burn — und das ist eine Superkraft.",
+      "tips": [
+        "Warte nicht aufs Aufwärmen — versuche von Anfang an dein 'entspanntes Ich' zu sein",
+        "Übe selbstbewusste Körpersprache: Blickkontakt, offene Haltung, echtes Lächeln",
+        "Denk dran: Rizz ist nicht Performen, sondern anderen ein gutes Gefühl geben"
+      ]
+    },
+    "undercover": {
+      "name": "Undercover Rizz",
+      "archetype": "Der Schläfer-Agent",
+      "description": "Dein Charme ist da — er versteckt sich nur unter der Oberfläche. Du hast tolle Qualitäten, die Menschen lieben, wenn sie dich kennenlernen, aber sie zeigen sich nicht immer beim ersten Eindruck. Dein Rizz aktiviert sich in kleinen Gruppen und unter vier Augen.",
+      "tips": [
+        "Fang klein an: ein Kompliment am Tag, um deinen Selbstvertrauens-Muskel zu trainieren",
+        "Bereite einige Gesprächseinstiege für soziale Situationen vor",
+        "Zeige echte Neugier an anderen — stelle Nachfragen"
+      ]
+    },
+    "unspoken": {
+      "name": "Unausgesprochener Rizz",
+      "archetype": "Das Mysterium",
+      "description": "Dein Vibe spricht lauter als Worte. Du bist vielleicht nicht die extrovertierteste Person, aber du hast eine faszinierende Aura. Manche Menschen fühlen sich von deinem stillen Selbstbewusstsein und deiner geheimnisvollen Energie angezogen.",
+      "tips": [
+        "Akzeptiere deine stille Stärke — nicht jeder muss der Mittelpunkt sein",
+        "Arbeite daran, dich schrittweise zu öffnen — teile etwas Persönliches pro Gespräch",
+        "Dein Mysterium ist attraktiv, aber lass es nicht zur Mauer werden"
+      ]
+    }
+  },
+  "result": {
+    "yourScore": "Dein Rizz Score",
+    "description": "Beschreibung",
+    "tips": "Charme-Tipps",
+    "retake": "Nochmal testen"
+  },
+  "share": {
+    "twitter": "Auf X teilen",
+    "copyUrl": "Link kopieren",
+    "copied": "Link kopiert!",
+    "text": "Mein Rizz Score: {score}/100 — {tier}! Wie hoch ist deiner?"
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen"
+  }
+}

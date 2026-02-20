@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "Berapa Rizz Score Kamu? | Tes Karisma",
+    "description": "Ukur karismamu lewat 12 skenario sosial. Skor 0-100 dan temukan arketipe pesonamu!"
+  },
+  "app": {
+    "title": "Berapa Rizz Score Kamu?",
+    "subtitle": "12 skenario sosial untuk mengukur karisma dan pesona kamu",
+    "warning": "Tes ini hanya untuk hiburan dan tidak mengukur kemampuan sosial yang sebenarnya secara akurat.",
+    "start": "Mulai Tes"
+  },
+  "questions": {
+    "q1": {
+      "text": "Seseorang yang menarik menatapmu dari seberang ruangan. Apa yang kamu lakukan?",
+      "options": {
+        "a": "Menghampiri dengan percaya diri dan mulai ngobrol",
+        "b": "Tersenyum dan jaga kontak mata, tunggu mereka yang menghampiri",
+        "c": "Buru-buru alihkan pandangan dan berharap mereka tidak lihat",
+        "d": "Pura-pura sibuk main HP dan hindari segala kontak"
+      }
+    },
+    "q2": {
+      "text": "Gebetanmu kirim pesan ambigu: 'Malam ini free?' Gimana kamu bales?",
+      "options": {
+        "a": "Mikir 30 menit, screenshot, kirim ke grup",
+        "b": "Bales dengan smooth: 'Tergantung rencananya apa'",
+        "c": "Panik dan read dua jam",
+        "d": "'Iya, kenapa?' — santai dan cool"
+      }
+    },
+    "q3": {
+      "text": "Kamu di pesta tapi gak kenal siapapun. Langkahmu?",
+      "options": {
+        "a": "Cari tuan rumah dan minta dikenalkan",
+        "b": "Berdiri di dekat meja snack sambil scrolling HP",
+        "c": "Jadi DJ atau mulai game — ambil alih suasana",
+        "d": "Diam-diam mengamati dan baru ngomong kalau diajak bicara"
+      }
+    },
+    "q4": {
+      "text": "Pasangan kencanmu tidak sengaja menumpahkan minuman. Gimana kamu handle?",
+      "options": {
+        "a": "Diam dalam keheningan yang canggung",
+        "b": "Bilang 'Gak apa-apa' dan cepat bantu bersihin",
+        "c": "Lempar joke untuk cairkan suasana",
+        "d": "Ketawa, tumpahin sedikit punyamu juga, bilang 'Sekarang impas'"
+      }
+    },
+    "q5": {
+      "text": "Temanmu minta kamu jadi wingman. Strategimu apa?",
+      "options": {
+        "a": "Puji temenmu lalu perlahan mundur dari pembicaraan",
+        "b": "Coba bantu tapi malah jadi pusat perhatian sendiri",
+        "c": "Tunjuk temenmu dari jauh dan kasih jempol",
+        "d": "Tolak — bukan gayamu"
+      }
+    },
+    "q6": {
+      "text": "Ada keheningan canggung di kencan pertama. Apa yang kamu lakukan?",
+      "options": {
+        "a": "Tanya pertanyaan mendalam random: 'Ketakutan terbesarmu apa?'",
+        "b": "Bahas sesuatu yang kamu notice tentang dia tadi dengan smooth",
+        "c": "Duduk diam sambil berdoa makanannya cepat datang",
+        "d": "Bikin joke self-deprecating soal keheningan canggung"
+      }
+    },
+    "q7": {
+      "text": "Orang asing memuji outfitmu. Gimana reaksimu?",
+      "options": {
+        "a": "Lihat baju sendiri bingung dan bilang 'Ini? Udah lama kok...'",
+        "b": "Bergumam 'makasih' dan jalan cepat pergi",
+        "c": "Bilang 'Makasih! Style kamu juga keren' dan mulai ngobrol",
+        "d": "Senyum lebar dan bilang 'Kamu bikin hariku cerah'"
+      }
+    },
+    "q8": {
+      "text": "Teman menarik mantan mulai menunjukkan ketertarikan. Langkahmu?",
+      "options": {
+        "a": "Flirting balik dengan natural — hidup cuma sekali",
+        "b": "Ramah tapi jaga jarak yang wajar",
+        "c": "Gugup dan ganti topik",
+        "d": "Abaikan sepenuhnya dan pura-pura gak sadar"
+      }
+    },
+    "q9": {
+      "text": "Kamu harus toast di pesta temanmu. Apa yang terjadi?",
+      "options": {
+        "a": "Freeze dan cuma bilang 'Cheers deh'",
+        "b": "Siapin sesuatu yang singkat dan manis, agak gugup",
+        "c": "Ceritain kisah lucu yang bikin semua ketawa",
+        "d": "Improvisasi pidato yang tulus dan mengharukan"
+      }
+    },
+    "q10": {
+      "text": "Orang yang kamu suka posting selfie keren. Gimana kamu approach?",
+      "options": {
+        "a": "React pake emoji love dan berharap dia notice",
+        "b": "Gak interaksi — gak mau keliatan desperate",
+        "c": "DM sesuatu yang witty yang nyebut fotonya secara natural",
+        "d": "Like aja dan lanjut hidup"
+      }
+    },
+    "q11": {
+      "text": "Temanmu tantang kamu ngomong sama orang yang cakep. Apa yang kamu lakukan?",
+      "options": {
+        "a": "Bilang 'Ogah' dan tolak mentah-mentah",
+        "b": "Jalan kesana dengan canggung dan blank total mau ngomong apa",
+        "c": "Gak perlu ditantang — emang udah mau kesana",
+        "d": "Terima tantangannya dan berhasil bikin obrolan seru"
+      }
+    },
+    "q12": {
+      "text": "Akhir kencan yang seru. Gimana kamu pamitan?",
+      "options": {
+        "a": "Pelukan hangat, ucapkan sesuatu berkesan, bikin dia penasaran",
+        "b": "Lambaian canggung dari seberang mobil",
+        "c": "'Seru banget, next time lagi ya' dengan senyum tulus",
+        "d": "Cuma bilang 'Bye' dan jalan cepat pergi"
+      }
+    }
+  },
+  "results": {
+    "legendary": {
+      "name": "Rizz Legendaris",
+      "archetype": "Si Natural",
+      "description": "Kamu punya pesona magnetis yang effortless. Orang tertarik padamu tanpa kamu perlu berusaha. Kepercayaan dirimu asli, humormu tajam, dan kepekaan sosialmu luar biasa. Kamu baca ruangan seperti buku dan bikin semua orang merasa spesial.",
+      "tips": [
+        "Tetap humble — pesonamu adalah anugerah, gunakan untuk mengangkat orang lain",
+        "Tetap jadi diri sendiri — kepercayaan diri palsu langsung ketahuan",
+        "Jadi mentor buat teman-teman yang kurang PD — bagikan kebijaksanaan rizz"
+      ]
+    },
+    "certified": {
+      "name": "Rizzer Tersertifikasi",
+      "archetype": "Si Smooth Operator",
+      "description": "Game kamu konsisten kuat. Kamu tahu cara baca sinyal sosial, ngomong yang tepat di waktu yang tepat, dan bikin orang nyaman di sekitarmu. Mungkin bukan yang paling rame, tapi selalu meninggalkan kesan.",
+      "tips": [
+        "Perluas zona nyaman — coba mulai percakapan dengan orang yang sama sekali asing",
+        "Latih kemampuan bercerita — cerita bagus memperkuat pesona",
+        "Praktikkan active listening — pengali rizz yang paling ampuh"
+      ]
+    },
+    "solid": {
+      "name": "Game Solid",
+      "archetype": "Si Bertumbuh",
+      "description": "Kamu punya fondasi pesona yang bagus dan makin kuat seiring kamu makin nyaman. Awalnya mungkin lambat, tapi begitu terbuka, orang melihat kehangatan dan kecerdasan aslimu. Rizzmu slow burn — dan itu superpower.",
+      "tips": [
+        "Jangan tunggu warm up — coba jadi 'diri yang nyaman' dari awal",
+        "Latih body language yang percaya diri: kontak mata, postur terbuka, senyum tulus",
+        "Ingat: rizz bukan tentang perform, tapi bikin orang lain merasa nyaman"
+      ]
+    },
+    "undercover": {
+      "name": "Rizz Terselubung",
+      "archetype": "Si Agen Tidur",
+      "description": "Pesonamu ada — cuma tersembunyi di bawah permukaan. Kamu punya kualitas hebat yang orang suka begitu kenal kamu, tapi gak selalu terlihat di kesan pertama. Rizzmu aktif di kelompok kecil dan one-on-one.",
+      "tips": [
+        "Mulai dari yang kecil: satu pujian sehari untuk melatih otot kepercayaan diri",
+        "Siapkan beberapa topik percakapan untuk situasi sosial",
+        "Fokus pada keingintahuan tulus tentang orang lain — tanya pertanyaan lanjutan"
+      ]
+    },
+    "unspoken": {
+      "name": "Rizz Tak Terucapkan",
+      "archetype": "Si Misterius",
+      "description": "Vibemu bicara lebih keras dari kata-kata. Mungkin bukan yang paling extrovert, tapi ada aura intrik tentangmu. Beberapa orang tertarik pada kepercayaan diri diammu dan energi misterius. Rizzmu bukan soal apa yang kamu bilang — tapi siapa kamu.",
+      "tips": [
+        "Terima kekuatan diammu — gak semua orang perlu jadi jiwa pesta",
+        "Pelan-pelan buka diri — bagikan satu hal personal di setiap percakapan",
+        "Misterimu menarik, tapi jangan biarkan jadi tembok"
+      ]
+    }
+  },
+  "result": {
+    "yourScore": "Rizz Score Kamu",
+    "description": "Deskripsi",
+    "tips": "Tips Pesona",
+    "retake": "Tes Ulang"
+  },
+  "share": {
+    "twitter": "Bagikan di X",
+    "copyUrl": "Salin Link",
+    "copied": "Link tersalin!",
+    "text": "Rizz Score-ku: {score}/100 — {tier}! Berapa punyamu?"
+  },
+  "a11y": {
+    "skip": "Lompat ke konten"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "¿Cuál es tu Rizz Score? | Test de Carisma",
+    "description": "Mide tu carisma con 12 escenarios sociales. ¡Puntuación de 0 a 100 y descubre tu arquetipo de encanto!"
+  },
+  "app": {
+    "title": "¿Cuál es tu Rizz Score?",
+    "subtitle": "12 escenarios sociales para medir tu carisma y encanto",
+    "warning": "Este test es solo para entretenimiento y no mide con precisión las habilidades sociales reales.",
+    "start": "Comenzar Test"
+  },
+  "questions": {
+    "q1": {
+      "text": "Alguien atractivo te mira desde el otro lado de la sala. ¿Qué haces?",
+      "options": {
+        "a": "Te acercas con confianza y empiezas una conversación",
+        "b": "Sonríes y mantienes el contacto visual, esperando que se acerque",
+        "c": "Apartas la mirada rápidamente y esperas que no te haya visto",
+        "d": "Finges estar en el móvil y evitas todo contacto"
+      }
+    },
+    "q2": {
+      "text": "Tu crush te envía un mensaje ambiguo: '¿Estás libre esta noche?' ¿Cómo respondes?",
+      "options": {
+        "a": "Lo piensas 30 minutos, haces captura y lo mandas al grupo",
+        "b": "Respondes con estilo: 'Depende de lo que tengas en mente'",
+        "c": "Entras en pánico y lo dejas en visto dos horas",
+        "d": "Dices 'Sí, ¿qué pasa?' — casual y tranquilo"
+      }
+    },
+    "q3": {
+      "text": "Estás en una fiesta donde no conoces a nadie. ¿Cuál es tu jugada?",
+      "options": {
+        "a": "Buscas al anfitrión y le pides que te presente",
+        "b": "Te quedas junto a la mesa de snacks mirando el móvil",
+        "c": "Te conviertes en el DJ o propones un juego — tomas el control",
+        "d": "Observas en silencio y solo hablas cuando te hablan"
+      }
+    },
+    "q4": {
+      "text": "Tu cita derrama accidentalmente su bebida. ¿Cómo reaccionas?",
+      "options": {
+        "a": "Te quedas mirando en silencio incómodo",
+        "b": "Dices 'No pasa nada' y ayudas a limpiar rápidamente",
+        "c": "Haces un chiste para aligerar el ambiente",
+        "d": "Te ríes, derramas un poco de la tuya y dices 'Ahora estamos en paz'"
+      }
+    },
+    "q5": {
+      "text": "Un amigo te pide que seas su wingman. ¿Cuál es tu estrategia?",
+      "options": {
+        "a": "Lo presentas genial y luego te retiras elegantemente",
+        "b": "Intentas ayudar pero acabas robándole el protagonismo",
+        "c": "Lo señalas desde lejos y le haces un pulgar arriba",
+        "d": "Rechazas — no es lo tuyo"
+      }
+    },
+    "q6": {
+      "text": "Hay un silencio incómodo en la primera cita. ¿Qué haces?",
+      "options": {
+        "a": "Lanzas una pregunta profunda random: '¿Cuál es tu mayor miedo?'",
+        "b": "Mencionas algo que notaste antes sobre la otra persona",
+        "c": "Te quedas sentado rezando para que llegue la comida",
+        "d": "Haces un chiste autoirónico sobre los silencios incómodos"
+      }
+    },
+    "q7": {
+      "text": "Un desconocido elogia tu ropa. ¿Cómo reaccionas?",
+      "options": {
+        "a": "Te miras confundido y dices '¿Esto? Es viejo...'",
+        "b": "Murmuras 'gracias' y te vas rápido",
+        "c": "Dices 'Gracias, tu estilo también mola' y empiezas a charlar",
+        "d": "Sonríes y dices 'Me has alegrado el día'"
+      }
+    },
+    "q8": {
+      "text": "El amigo/a atractivo/a de tu ex empieza a mostrarte interés. ¿Tu movimiento?",
+      "options": {
+        "a": "Coqueteas de vuelta naturalmente — la vida es corta",
+        "b": "Eres amable pero mantienes la distancia apropiada",
+        "c": "Te pones nervioso y cambias de tema",
+        "d": "Lo ignoras completamente y actúas como si no lo notaras"
+      }
+    },
+    "q9": {
+      "text": "Tienes que hacer un brindis en la fiesta de un amigo. ¿Qué pasa?",
+      "options": {
+        "a": "Te bloqueas y solo dices '¡Salud!'",
+        "b": "Preparas algo corto y bonito, un poco nervioso",
+        "c": "Cuentas una anécdota graciosa que hace reír a todos",
+        "d": "Improvisas un discurso emotivo que conmueve a todos"
+      }
+    },
+    "q10": {
+      "text": "Alguien que te gusta sube un selfie increíble. ¿Cómo entras?",
+      "options": {
+        "a": "Reaccionas con un corazón y esperas que lo note",
+        "b": "No interactúas — no quieres parecer desesperado",
+        "c": "Le mandas un DM ingenioso que menciona la foto naturalmente",
+        "d": "Le das like y sigues con tu vida"
+      }
+    },
+    "q11": {
+      "text": "Tu amigo te reta a hablar con alguien guapo/a. ¿Qué haces?",
+      "options": {
+        "a": "Dices 'Ni de broma' y te niegas",
+        "b": "Te acercas nervioso y se te olvida qué decir",
+        "c": "No necesitas reto — ya ibas a hacerlo",
+        "d": "Aceptas el reto y logras tener una conversación genial"
+      }
+    },
+    "q12": {
+      "text": "Fin de una cita increíble. ¿Cómo te despides?",
+      "options": {
+        "a": "Un abrazo cálido, algo memorable, y dejas con ganas de más",
+        "b": "Un saludo torpe desde el otro lado del coche",
+        "c": "Dices 'Me lo pasé genial, repitamos' con una sonrisa sincera",
+        "d": "Solo dices 'Adiós' y te vas rápido"
+      }
+    }
+  },
+  "results": {
+    "legendary": {
+      "name": "Rizz Legendario",
+      "archetype": "El Natural",
+      "description": "Tienes un encanto magnético y natural. La gente se siente atraída por ti sin que hagas nada especial. Tu confianza es genuina, tu humor es afilado y tu percepción social está por las nubes. Lees las situaciones como un libro y haces que todos se sientan especiales.",
+      "tips": [
+        "Mantén la humildad — tu encanto es un don, úsalo para elevar a otros",
+        "Sigue siendo auténtico — la gente detecta la falsa confianza enseguida",
+        "Sé mentor de tus amigos menos seguros — comparte la sabiduría del rizz"
+      ]
+    },
+    "certified": {
+      "name": "Rizzer Certificado",
+      "archetype": "El Operador Suave",
+      "description": "Tienes un juego consistentemente fuerte. Sabes leer las señales sociales, decir lo correcto en el momento justo y hacer que la gente se sienta cómoda a tu alrededor. Quizá no seas siempre el más ruidoso, pero siempre dejas huella.",
+      "tips": [
+        "Amplía tu zona de confort — intenta iniciar conversaciones con desconocidos totales",
+        "Trabaja en contar historias — las buenas historias amplifican el encanto",
+        "Practica la escucha activa — es el multiplicador definitivo del rizz"
+      ]
+    },
+    "solid": {
+      "name": "Juego Sólido",
+      "archetype": "El que Crece",
+      "description": "Tienes una buena base de encanto que se fortalece cuanto más cómodo estás. Puede que empieces lento, pero cuando te abres, la gente ve tu calidez y tu ingenio genuinos. Tu rizz es de combustión lenta — y eso es un superpoder.",
+      "tips": [
+        "No esperes a entrar en calor — intenta ser tu 'yo cómodo' desde el principio",
+        "Practica un lenguaje corporal seguro: contacto visual, postura abierta, sonrisas genuinas",
+        "Recuerda: el rizz es hacer que otros se sientan bien, no actuar"
+      ]
+    },
+    "undercover": {
+      "name": "Rizz Encubierto",
+      "archetype": "El Agente Dormido",
+      "description": "Tu encanto está ahí — solo que se esconde bajo la superficie. Tienes cualidades increíbles que la gente adora cuando te conoce, pero no siempre brillan en la primera impresión. Tu rizz se activa en grupos pequeños y uno a uno.",
+      "tips": [
+        "Empieza poco a poco: un cumplido al día para ejercitar tu músculo de confianza",
+        "Prepara algunos temas de conversación para situaciones sociales",
+        "Enfócate en la curiosidad genuina por los demás — haz preguntas de seguimiento"
+      ]
+    },
+    "unspoken": {
+      "name": "Rizz Tácito",
+      "archetype": "El Misterio",
+      "description": "Tu vibra habla más fuerte que las palabras. Puede que no seas la persona más extrovertida, pero hay un aura intrigante en ti. Algunas personas se sienten atraídas por tu confianza silenciosa y energía misteriosa. Tu rizz no es lo que dices — es quién eres.",
+      "tips": [
+        "Acepta tu fuerza silenciosa — no todos necesitan ser el alma de la fiesta",
+        "Trabaja en abrirte gradualmente — comparte algo personal en cada conversación",
+        "Tu misterio es atractivo, pero no dejes que se convierta en un muro"
+      ]
+    }
+  },
+  "result": {
+    "yourScore": "Tu Rizz Score",
+    "description": "Descripción",
+    "tips": "Consejos de Encanto",
+    "retake": "Repetir Test"
+  },
+  "share": {
+    "twitter": "Compartir en X",
+    "copyUrl": "Copiar Enlace",
+    "copied": "¡Enlace copiado!",
+    "text": "Mi Rizz Score: {score}/100 — {tier}! ¿Cuál es el tuyo?"
+  },
+  "a11y": {
+    "skip": "Ir al contenido"
+  }
+}

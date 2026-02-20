@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>나의 리즈 점수는? | What's Your Rizz Score?</title>
+<meta name="description" content="12가지 소셜 시나리오로 나의 매력 점수(Rizz Score)를 측정해 보세요. 100점 만점 중 당신의 매력은?">
+
+<!-- Canonical & Hreflang -->
+<link rel="canonical" href="https://dopabrain.com/rizz-score/">
+<link rel="alternate" hreflang="ko" href="https://dopabrain.com/rizz-score/?lang=ko">
+<link rel="alternate" hreflang="en" href="https://dopabrain.com/rizz-score/?lang=en">
+<link rel="alternate" hreflang="zh" href="https://dopabrain.com/rizz-score/?lang=zh">
+<link rel="alternate" hreflang="hi" href="https://dopabrain.com/rizz-score/?lang=hi">
+<link rel="alternate" hreflang="ru" href="https://dopabrain.com/rizz-score/?lang=ru">
+<link rel="alternate" hreflang="ja" href="https://dopabrain.com/rizz-score/?lang=ja">
+<link rel="alternate" hreflang="es" href="https://dopabrain.com/rizz-score/?lang=es">
+<link rel="alternate" hreflang="pt" href="https://dopabrain.com/rizz-score/?lang=pt">
+<link rel="alternate" hreflang="id" href="https://dopabrain.com/rizz-score/?lang=id">
+<link rel="alternate" hreflang="tr" href="https://dopabrain.com/rizz-score/?lang=tr">
+<link rel="alternate" hreflang="de" href="https://dopabrain.com/rizz-score/?lang=de">
+<link rel="alternate" hreflang="fr" href="https://dopabrain.com/rizz-score/?lang=fr">
+<link rel="alternate" hreflang="x-default" href="https://dopabrain.com/rizz-score/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="What's Your Rizz Score?">
+<meta property="og:description" content="12 social scenarios to measure your charisma. Score 0-100 and discover your rizz archetype!">
+<meta property="og:url" content="https://dopabrain.com/rizz-score/">
+<meta property="og:site_name" content="DopaBrain">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="What's Your Rizz Score?">
+<meta name="twitter:description" content="12 social scenarios to measure your charisma. What's your rizz archetype?">
+
+<!-- Styles -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "What's Your Rizz Score?",
+  "alternateName": "나의 리즈 점수는?",
+  "description": "Measure your charisma and social charm through 12 scenario-based questions. Discover your rizz archetype and score out of 100.",
+  "url": "https://dopabrain.com/rizz-score/",
+  "applicationCategory": "EntertainmentApplication",
+  "operatingSystem": "Any",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "author": { "@type": "Organization", "name": "DopaBrain", "url": "https://dopabrain.com" },
+  "inLanguage": ["ko","en","zh","hi","ru","ja","es","pt","id","tr","de","fr"]
+}
+</script>
+
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J8GSWM40TV"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-J8GSWM40TV');</script>
+
+<!-- AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Skip Link -->
+<a href="#main-content" class="skip-link" data-i18n="a11y.skip">Skip to content</a>
+
+<!-- App Loader -->
+<div id="app-loader" class="app-loader">
+  <div class="loader-content">
+    <div class="loader-emoji">🔥</div>
+    <div class="loader-spinner"></div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="app-header">
+  <div class="header-controls">
+    <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+      <span class="theme-icon-dark">🌙</span>
+      <span class="theme-icon-light">☀️</span>
+    </button>
+    <select id="lang-select" class="lang-select" aria-label="Language">
+      <option value="ko">한국어</option>
+      <option value="en">English</option>
+      <option value="zh">中文</option>
+      <option value="hi">हिन्दी</option>
+      <option value="ru">Русский</option>
+      <option value="ja">日本語</option>
+      <option value="es">Español</option>
+      <option value="pt">Português</option>
+      <option value="id">Indonesia</option>
+      <option value="tr">Türkçe</option>
+      <option value="de">Deutsch</option>
+      <option value="fr">Français</option>
+    </select>
+  </div>
+</header>
+
+<!-- Main Content -->
+<main id="main-content" class="container">
+
+  <!-- Start Screen -->
+  <section id="start-screen" class="screen active">
+    <div class="card glass-card start-card">
+      <div class="app-emoji">🔥</div>
+      <h1 data-i18n="app.title">나의 리즈 점수는?</h1>
+      <p class="subtitle" data-i18n="app.subtitle">12가지 소셜 시나리오로 나의 매력 점수를 측정해 보세요</p>
+      <p class="warning" data-i18n="app.warning">이 테스트는 재미를 위한 것이며, 실제 사회적 능력을 정확히 측정하지 않습니다.</p>
+      <button id="start-btn" class="btn btn-primary" data-i18n="app.start">테스트 시작</button>
+    </div>
+  </section>
+
+  <!-- Quiz Screen -->
+  <section id="quiz-screen" class="screen">
+    <div class="card glass-card quiz-card">
+      <div class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      <div class="question-counter">
+        <span id="current-q">1</span> / <span id="total-q">12</span>
+      </div>
+      <h2 id="question-text" class="question-text"></h2>
+      <div id="options-container" class="options-container"></div>
+    </div>
+  </section>
+
+  <!-- Result Screen -->
+  <section id="result-screen" class="screen">
+    <div class="card glass-card result-card">
+      <div class="result-reveal">
+        <div id="result-emoji" class="result-emoji">🔥</div>
+        <h2 data-i18n="result.yourScore" class="result-label">Your Rizz Score</h2>
+        <div class="score-meter-container">
+          <svg class="score-meter" viewBox="0 0 200 200" aria-hidden="true">
+            <circle class="meter-track" cx="100" cy="100" r="85" />
+            <circle id="meter-arc" class="meter-arc" cx="100" cy="100" r="85" />
+          </svg>
+          <div class="score-value-wrap">
+            <span id="score-number" class="score-number">0</span>
+          </div>
+        </div>
+        <h2 id="result-tier" class="result-tier"></h2>
+        <p id="result-archetype" class="result-archetype"></p>
+      </div>
+
+      <div class="result-details">
+        <div class="result-section">
+          <h3 data-i18n="result.description">설명</h3>
+          <p id="result-desc" class="result-desc"></p>
+        </div>
+
+        <div class="result-section">
+          <h3 data-i18n="result.tips">매력 팁</h3>
+          <ul id="result-tips" class="tips-list"></ul>
+        </div>
+      </div>
+
+      <div class="result-actions">
+        <button id="share-twitter" class="btn btn-share btn-twitter" data-i18n="share.twitter">트위터 공유</button>
+        <button id="share-copy" class="btn btn-share btn-copy" data-i18n="share.copyUrl">링크 복사</button>
+        <button id="retake-btn" class="btn btn-primary" data-i18n="result.retake">다시 테스트</button>
+      </div>
+    </div>
+
+    <!-- Cross-promo container -->
+    <div id="cross-promo-container"></div>
+  </section>
+
+</main>
+
+<!-- Scripts -->
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+<script src="/portal/js/cross-promo.js" defer></script>
+</body>
+</html>
