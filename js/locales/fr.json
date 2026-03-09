@@ -1,187 +1,169 @@
 {
   "meta": {
-    "title": "Quel est ton Rizz Score ? | Test de Charisme",
-    "description": "Mesure ton charisme avec 12 scénarios sociaux. Score de 0 à 100 et découvre ton archétype de charme !"
+    "title": "Rizz Audition | Scene du Charme",
+    "description": "10 tours d'audition avec 3 juges! Decouvre ton niveau de charme et ton style d'attrait!"
   },
   "app": {
-    "title": "Quel est ton Rizz Score ?",
-    "subtitle": "12 scénarios sociaux pour mesurer ton charisme et ton charme",
-    "warning": "Ce test est uniquement à but divertissant et ne mesure pas précisément les compétences sociales réelles.",
-    "start": "Commencer le Test"
+    "title": "Audition de Charme",
+    "subtitle": "Monte sur scene. 3 juges. 10 tours. Montre ton charme.",
+    "warning": "Uniquement pour le divertissement. Pas une evaluation reelle du charme.",
+    "start": "Monter sur Scene"
   },
-  "questions": {
-    "q1": {
-      "text": "Quelqu'un d'attirant te regarde de l'autre côté de la pièce. Que fais-tu ?",
-      "options": {
-        "a": "Tu vas vers cette personne avec assurance et tu engages la conversation",
-        "b": "Tu souris et tu maintiens le contact visuel en attendant qu'elle vienne",
-        "c": "Tu détournes vite le regard en espérant ne pas avoir été remarqué(e)",
-        "d": "Tu fais semblant d'être sur ton téléphone pour éviter tout contact"
+  "judges": {
+    "wit": "Esprit",
+    "depth": "Profondeur",
+    "humor": "Humour"
+  },
+  "stage": {
+    "round": "Tour",
+    "totalScore": "Score Total"
+  },
+  "rounds": {
+    "r1": {
+      "scenario": "Tu arrives a une fete et tu ne connais personne. Ton premier mouvement ?",
+      "choices": {
+        "a": "Tu rejoins le groupe le plus anime avec une remarque intelligente",
+        "b": "Tu observes tranquillement puis tu engages une conversation sincere",
+        "c": "Tu vas voir le DJ et demandes un tube pour enflammer la piste"
       }
     },
-    "q2": {
-      "text": "Ton crush t'envoie un message vague : 'T'es libre ce soir ?' Comment tu réponds ?",
-      "options": {
-        "a": "Tu réfléchis 30 minutes, tu fais une capture d'écran et tu l'envoies au groupe",
-        "b": "Tu réponds avec style : 'Ça dépend de ce que tu proposes'",
-        "c": "Tu paniques et tu le laisses en vu pendant deux heures",
-        "d": "Tu dis 'Ouais, pourquoi ?' — décontracté et cool"
+    "r2": {
+      "scenario": "Ton crush t'envoie un message vague : 'Tu fais quoi ?'",
+      "choices": {
+        "a": "Tu reponds 'Je pensais justement a toi. Telepathie ?' — fluide et malin",
+        "b": "Tu partages honnetement ce que tu fais et demandes 'Et toi ?' avec un interet sincere",
+        "c": "Tu envoies 'Je planifie la domination mondiale. Tu veux participer ?' — drole et joueur"
       }
     },
-    "q3": {
-      "text": "Tu es à une fête où tu ne connais personne. Quel est ton move ?",
-      "options": {
-        "a": "Tu trouves l'hôte et tu lui demandes de te présenter",
-        "b": "Tu restes près du buffet en scrollant sur ton téléphone",
-        "c": "Tu deviens le DJ ou tu lances un jeu — tu prends les commandes",
-        "d": "Tu observes en silence et tu ne parles que quand on te parle"
+    "r3": {
+      "scenario": "Silence genant au premier rendez-vous. Ca fait plus de 5 secondes.",
+      "choices": {
+        "a": "Tu dis 'Si ce silence est confortable, on est peut-etre des ames soeurs' — sauvetage malin",
+        "b": "Tu regardes dans les yeux et dis 'Parle-moi encore de ce que tu as mentionne' — connexion profonde",
+        "c": "Tu remarques 'On vient de boire une gorgee en meme temps !' — comedie salvatrice"
       }
     },
-    "q4": {
-      "text": "Ton rendez-vous renverse accidentellement sa boisson. Comment tu gères ?",
-      "options": {
-        "a": "Tu regardes fixement dans un silence gênant",
-        "b": "Tu dis 'C'est pas grave' et tu aides vite à nettoyer",
-        "c": "Tu fais une blague pour détendre l'atmosphère",
-        "d": "Tu rigoles, tu renverses un peu de la tienne et tu dis 'On est quittes'"
+    "r4": {
+      "scenario": "En plein rendez-vous, quelqu'un a la table d'a cote drague ouvertement ton/ta partenaire.",
+      "choices": {
+        "a": "Tu restes cool, souris avec confiance et concentres toute ton attention sur ton rendez-vous",
+        "b": "Tu prends la main de ton/ta partenaire et dis 'Je suis vraiment content(e) que tu sois la'",
+        "c": "Tu regardes l'admirateur et plaisantes 'On ne peut pas leur en vouloir — bon gout'"
       }
     },
-    "q5": {
-      "text": "Un ami te demande d'être son wingman. Quelle est ta stratégie ?",
-      "options": {
-        "a": "Tu vantes ton ami puis tu te retires discrètement",
-        "b": "Tu essaies d'aider mais tu finis par prendre toute l'attention",
-        "c": "Tu montres ton ami de loin avec un pouce levé",
-        "d": "Tu refuses — ce n'est pas ton truc"
+    "r5": {
+      "scenario": "Au karaoke, le micro arrive dans tes mains. Tout le monde te regarde avec impatience.",
+      "choices": {
+        "a": "Tu chantes un tube avec confiance et presence scenique",
+        "b": "Tu choisis une chanson significative et chantes avec tout ton coeur",
+        "c": "Tu choisis un truc absurde et offres un spectacle comique hilarant"
       }
     },
-    "q6": {
-      "text": "Silence gênant lors du premier rendez-vous. Que fais-tu ?",
-      "options": {
-        "a": "Tu poses une question profonde au hasard : 'Quelle est ta plus grande peur ?'",
-        "b": "Tu mentionnes naturellement quelque chose que tu as remarqué plus tôt",
-        "c": "Tu restes assis(e) en priant pour que le repas arrive",
-        "d": "Tu fais une blague autodérisoire sur les silences gênants"
+    "r6": {
+      "scenario": "Seul(e) dans l'ascenseur avec quelqu'un d'incroyablement attirant. 30 secondes !",
+      "choices": {
+        "a": "Tu dis 'Ca doit etre mon jour de chance dans les ascenseurs' et tu engages la conversation",
+        "b": "Contact visuel, sourire chaleureux et tu souhaites sincerement une belle journee",
+        "c": "Tu demandes 'Il y a une camera cachee ? Ca ressemble a une scene de film'"
       }
     },
-    "q7": {
-      "text": "Un inconnu complimente ta tenue. Comment tu réagis ?",
-      "options": {
-        "a": "Tu te regardes, confus(e), et tu dis 'Ça ? C'est vieux...'",
-        "b": "Tu marmones 'merci' et tu pars vite",
-        "c": "Tu dis 'Merci ! J'aime ton style aussi' et tu commences à discuter",
-        "d": "Tu souris franchement et tu dis 'Tu viens de me faire ma journée'"
+    "r7": {
+      "scenario": "Ton ami commence a raconter une histoire embarrassante sur toi en groupe.",
+      "choices": {
+        "a": "Tu interviens avec 'Mais vous n'avez pas entendu le vrai rebondissement' et tu retournes l'histoire",
+        "b": "Tu assumes honnetement et dis 'Oui, j'ai beaucoup appris de cette experience'",
+        "c": "Tu exageres encore plus et transformes ca en un auto-roast hilarant"
       }
     },
-    "q8": {
-      "text": "L'ami(e) séduisant(e) de ton ex commence à s'intéresser à toi. Ton move ?",
-      "options": {
-        "a": "Tu flirtes en retour naturellement — la vie est courte",
-        "b": "Tu es sympa mais tu gardes une distance appropriée",
-        "c": "Tu te troubles et tu changes de sujet",
-        "d": "Tu ignores complètement et tu fais comme si de rien n'était"
+    "r8": {
+      "scenario": "Tu t'es fait surprendre en train de fixer quelqu'un d'attirant. Vos regards se croisent !",
+      "choices": {
+        "a": "Tu ne detournes pas le regard — sourire confiant et leger signe de tete",
+        "b": "Tu t'approches et dis 'Pardon, ton energie etait tellement bonne que je n'ai pas pu m'en empecher'",
+        "c": "Tu fais un double regard dramatique et dis 'Je t'ai pris pour une celebrite !'"
       }
     },
-    "q9": {
-      "text": "Tu dois porter un toast à la fête d'un ami. Que se passe-t-il ?",
-      "options": {
-        "a": "Tu te figes et tu dis juste 'Santé'",
-        "b": "Tu prépares quelque chose de court et mignon, un peu nerveux(se)",
-        "c": "Tu racontes une anecdote drôle qui fait rire tout le monde",
-        "d": "Tu improvises un discours touchant qui émeut toute la salle"
+    "r9": {
+      "scenario": "Un rival drague agressivement la personne qui te plait.",
+      "choices": {
+        "a": "Tu restes zen et montres ton charme a ton propre rythme",
+        "b": "Tu te connectes a la personne par une conversation sincere et profonde",
+        "c": "Tu te lies d'amitie avec le rival et proposes 'On sort tous les trois !' — coup inattendu"
       }
     },
-    "q10": {
-      "text": "Quelqu'un qui te plaît poste un selfie canon. Comment tu t'y prends ?",
-      "options": {
-        "a": "Tu réagis avec un emoji cœur en espérant être remarqué(e)",
-        "b": "Tu n'interagis pas — tu ne veux pas paraître désespéré(e)",
-        "c": "Tu envoies un DM malin qui mentionne la photo naturellement",
-        "d": "Tu likes la photo et tu passes à autre chose"
-      }
-    },
-    "q11": {
-      "text": "Ton ami te met au défi d'aller parler à quelqu'un de mignon. Que fais-tu ?",
-      "options": {
-        "a": "Tu dis 'Jamais' et tu refuses catégoriquement",
-        "b": "Tu y vas maladroitement et tu oublies complètement quoi dire",
-        "c": "Pas besoin de défi — tu allais déjà le faire",
-        "d": "Tu acceptes le défi, tu y vas et tu gères une super conversation"
-      }
-    },
-    "q12": {
-      "text": "Fin d'un super rendez-vous. Comment tu dis au revoir ?",
-      "options": {
-        "a": "Un câlin chaleureux, quelque chose de mémorable, et tu laisses sur sa faim",
-        "b": "Un signe de main gêné de l'autre côté de la voiture",
-        "c": "Tu dis 'J'ai passé un super moment, on remet ça' avec un sourire sincère",
-        "d": "Tu dis juste 'Salut' et tu pars vite"
+    "r10": {
+      "scenario": "Tour final ! Le moment decisif pour avouer tes sentiments.",
+      "choices": {
+        "a": "Tu utilises une metaphore brillante pour la declaration la plus creative possible",
+        "b": "Tu regardes dans les yeux et parles du coeur avec une honnetete totale",
+        "c": "Tu les fais rire ET pleurer avec une declaration drole mais profondement touchante"
       }
     }
   },
   "results": {
-    "legendary": {
-      "name": "Rizz Légendaire",
-      "archetype": "Le Naturel",
-      "description": "Tu as un charme magnétique et naturel. Les gens sont attirés par toi sans que tu fasses quoi que ce soit. Ta confiance est authentique, ton humour est affûté et ta perception sociale est exceptionnelle. Tu lis les ambiances comme un livre et tu fais que chacun se sente spécial.",
+    "superstar": {
+      "name": "Superstar",
+      "description": "Ne pour la scene ! Tu captives tous les juges avec un charme ecrasant. Tu domines naturellement n'importe quelle piece et attires les gens comme un aimant.",
       "tips": [
-        "Reste humble — ton charme est un don, utilise-le pour élever les autres",
-        "Continue d'être authentique — la fausse confiance se repère à des kilomètres",
-        "Deviens le mentor de tes amis moins confiants — partage la sagesse du rizz"
+        "L'humilite est le meilleur amplificateur de charme — brille sans aveugler",
+        "Partage les projecteurs — aide les autres a se sentir confiants aussi",
+        "Reste authentique — ton plus grand charme est d'etre vrai"
       ]
     },
-    "certified": {
-      "name": "Rizzer Certifié",
-      "archetype": "L'Opérateur en Douceur",
-      "description": "Tu as un jeu constamment solide. Tu sais lire les signaux sociaux, dire la bonne chose au bon moment et mettre les gens à l'aise autour de toi. Tu n'es peut-être pas toujours le plus bruyant, mais tu laisses toujours une impression.",
+    "headliner": {
+      "name": "Tete d'Affiche",
+      "description": "Materiel de scene principale ! Tu laisses de fortes impressions et geres la plupart des situations avec grace. Avec un peu plus de peaufinage, tu atteindras le statut legendaire.",
       "tips": [
-        "Pousse ta zone de confort — essaie d'engager la conversation avec de parfaits inconnus",
-        "Travaille sur le storytelling — les bonnes histoires amplifient le charme",
-        "Pratique l'écoute active — c'est le multiplicateur de rizz ultime"
+        "Montrer sa vulnerabilite est aussi attirant — c'est ok de ne pas etre parfait",
+        "Ecoute davantage ce que les autres disent vraiment",
+        "N'hesite pas a faire le premier pas dans de nouvelles situations"
       ]
     },
-    "solid": {
-      "name": "Jeu Solide",
-      "archetype": "Celui qui s'épanouit",
-      "description": "Tu as de bonnes bases de charme qui se renforcent au fur et à mesure que tu es à l'aise. Tu peux démarrer lentement, mais quand tu t'ouvres, les gens voient ta vraie chaleur et ton esprit. Ton rizz est à combustion lente — et c'est un superpouvoir.",
+    "contender": {
+      "name": "Pretendant",
+      "description": "Un challenger plein de potentiel ! Tu crees de super moments et ton charme explose quand tu es a l'aise. Construis plus de confiance et tu domineras la scene.",
       "tips": [
-        "N'attends pas de te réchauffer — essaie d'être ton 'moi détendu' dès le départ",
-        "Pratique un langage corporel confiant : contact visuel, posture ouverte, sourires sincères",
-        "Rappelle-toi : le rizz c'est faire que les autres se sentent bien, pas performer"
+        "Accumule les petites victoires — entame une conversation par jour avec quelqu'un de nouveau",
+        "Pratique le langage corporel : contact visuel, posture ouverte, sourires sinceres",
+        "N'aie pas peur du rejet — chaque tentative est de l'experience gagnee"
       ]
     },
-    "undercover": {
-      "name": "Rizz Infiltré",
-      "archetype": "L'Agent Dormant",
-      "description": "Ton charme est là — il se cache juste sous la surface. Tu as d'excellentes qualités que les gens adorent une fois qu'ils te connaissent, mais elles ne brillent pas toujours à la première impression. Ton rizz s'active en petit comité et en tête-à-tête.",
+    "rookie": {
+      "name": "Debutant",
+      "description": "Vient de monter sur scene ! Tu as un potentiel de charme brut qui se raffine encore. Avec plus d'experience, tu progresseras vite et surprendras tout le monde.",
       "tips": [
-        "Commence petit : un compliment par jour pour muscler ta confiance",
-        "Prépare quelques sujets de conversation pour les situations sociales",
-        "Concentre-toi sur la curiosité sincère envers les autres — pose des questions de suivi"
+        "Etudie les personnes charismatiques — observe ce qui les rend magnetiques",
+        "Pratique seul — verifie ton sourire et ta posture dans le miroir",
+        "Commence par du small talk — dis un mot de plus a ton barista aujourd'hui"
       ]
     },
-    "unspoken": {
-      "name": "Rizz Tacite",
-      "archetype": "Le Mystère",
-      "description": "Ta vibe parle plus fort que les mots. Tu n'es peut-être pas la personne la plus extravertie, mais il y a une aura intrigante chez toi. Certaines personnes sont attirées par ta confiance silencieuse et ton énergie mystérieuse. Ton rizz n'est pas ce que tu dis — c'est qui tu es.",
+    "wallflower": {
+      "name": "Tapisserie",
+      "description": "L'observateur silencieux ! Tu brilles dans les coulisses. Ton charme interieur profond prend du temps a se reveler, mais tu laisses des impressions profondes sur les rares qui s'approchent.",
       "tips": [
-        "Accepte ta force silencieuse — tout le monde n'a pas besoin d'être le roi de la fête",
-        "Travaille à t'ouvrir progressivement — partage une chose personnelle par conversation",
-        "Ton mystère est attirant, mais ne le laisse pas devenir un mur"
+        "Ton charme silencieux est precieux — assume-le",
+        "Exploite ta force dans les situations en tete-a-tete",
+        "Elargis ta zone de confort progressivement — un petit defi quotidien"
       ]
     }
   },
+  "appealStyles": {
+    "witty": "Charmeur Spirituel — Maitre du Timing et de l'Intelligence",
+    "deep": "Charmeur Profond — Puissance de la Sincerite et de la Profondeur",
+    "funny": "Charmeur Humoristique — Gagner les Coeurs par le Rire"
+  },
   "result": {
-    "yourScore": "Ton Rizz Score",
-    "description": "Description",
+    "yourLevel": "Ton Niveau de Charme",
+    "roundBreakdown": "Detail par Tour",
+    "description": "Analyse du Style",
     "tips": "Astuces Charme",
-    "retake": "Refaire le Test"
+    "retake": "Refaire l'Audition"
   },
   "share": {
     "twitter": "Partager sur X",
     "copyUrl": "Copier le Lien",
-    "copied": "Lien copié !",
-    "text": "Mon Rizz Score : {score}/100 — {tier} ! Et toi ?"
+    "copied": "Lien copie !",
+    "text": "Rizz Audition : {score}/100 — {level} ! Quel est ton niveau de charme ?"
   },
   "a11y": {
     "skip": "Aller au contenu"

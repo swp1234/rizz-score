@@ -1,189 +1,171 @@
 {
   "meta": {
-    "title": "Qual é o seu Rizz Score? | Teste de Carisma",
-    "description": "Meça seu carisma com 12 cenários sociais. Pontue de 0 a 100 e descubra seu arquétipo de charme!"
+    "title": "Rizz Audition | Palco do Charme",
+    "description": "10 rodadas de audicao com 3 jurados avaliando seu charme. Descubra seu nivel de rizz!"
   },
   "app": {
-    "title": "Qual é o seu Rizz Score?",
-    "subtitle": "12 cenários sociais para medir seu carisma e charme",
-    "warning": "Este teste é apenas para entretenimento e não mede com precisão habilidades sociais reais.",
-    "start": "Começar Teste"
+    "title": "Audicao de Charme",
+    "subtitle": "Suba ao palco. 3 jurados. 10 rodadas. Mostre seu charme.",
+    "warning": "Apenas para entretenimento. Nao e uma avaliacao real de charme.",
+    "start": "Subir ao Palco"
   },
-  "questions": {
-    "q1": {
-      "text": "Alguém atraente olha para você do outro lado da sala. O que você faz?",
-      "options": {
-        "a": "Vai até lá com confiança e puxa conversa",
-        "b": "Sorri e mantém contato visual, esperando que a pessoa venha até você",
-        "c": "Desvia o olhar rapidamente e torce para não ter sido notado",
-        "d": "Finge estar no celular e evita qualquer contato"
+  "judges": {
+    "wit": "Sagacidade",
+    "depth": "Profundidade",
+    "humor": "Humor"
+  },
+  "stage": {
+    "round": "Rodada",
+    "totalScore": "Pontuacao Total"
+  },
+  "rounds": {
+    "r1": {
+      "scenario": "Voce chega numa festa e nao conhece ninguem. Qual e sua primeira jogada?",
+      "choices": {
+        "a": "Entra no grupo mais animado com uma abertura inteligente",
+        "b": "Observa tranquilamente e depois inicia uma conversa genuina",
+        "c": "Vai ate o DJ e pede uma musica para agitar a pista"
       }
     },
-    "q2": {
-      "text": "Seu crush manda uma mensagem vaga: 'Tá livre hoje à noite?' Como você responde?",
-      "options": {
-        "a": "Pensa 30 minutos, tira print e manda no grupo",
-        "b": "Responde com estilo: 'Depende do que você tem em mente'",
-        "c": "Entra em pânico e deixa no vácuo por duas horas",
-        "d": "Diz 'Tô sim, por quê?' — casual e tranquilo"
+    "r2": {
+      "scenario": "Seu crush manda uma mensagem vaga: 'O que voce ta fazendo?'",
+      "choices": {
+        "a": "Responde 'Tava pensando em voce. Telepatia?' — suave e esperto",
+        "b": "Conta honestamente o que esta fazendo e pergunta 'E voce?' com interesse genuino",
+        "c": "Manda 'Planejando a dominacao mundial. Quer entrar?' — divertido e brincalhao"
       }
     },
-    "q3": {
-      "text": "Você está numa festa onde não conhece ninguém. Qual é sua jogada?",
-      "options": {
-        "a": "Encontra o anfitrião e pede para ser apresentado",
-        "b": "Fica perto da mesa de comida mexendo no celular",
-        "c": "Vira o DJ ou começa um jogo — assume o controle",
-        "d": "Observa quieto e só fala quando falam com você"
+    "r3": {
+      "scenario": "Silencio constrangedor no primeiro encontro. Ja passaram 5 segundos.",
+      "choices": {
+        "a": "Diz 'Se esse silencio parece confortavel, podemos ser almas gemeas' — salvada inteligente",
+        "b": "Olha nos olhos e diz 'Me conta mais sobre o que voce disse antes' — conexao profunda",
+        "c": "Aponta 'A gente tomou um gole ao mesmo tempo!' — comedia salvadora"
       }
     },
-    "q4": {
-      "text": "Seu date derruba a bebida sem querer. Como você lida?",
-      "options": {
-        "a": "Fica olhando em silêncio constrangedor",
-        "b": "Diz 'Tudo bem' e ajuda a limpar rapidamente",
-        "c": "Faz uma piada para aliviar o clima",
-        "d": "Ri, derruba um pouco da sua também e diz 'Agora estamos quites'"
+    "r4": {
+      "scenario": "Alguem na mesa ao lado esta dando em cima do seu par descaradamente.",
+      "choices": {
+        "a": "Mantem a calma, sorri com confianca e foca toda atencao no seu par",
+        "b": "Pega na mao do par e diz 'Fico muito feliz que voce esta aqui comigo'",
+        "c": "Olha pro admirador e brinca 'Nao culpo, bom gosto e bom gosto'"
       }
     },
-    "q5": {
-      "text": "Um amigo pede para você ser o wingman. Qual é a estratégia?",
-      "options": {
-        "a": "Elogia o amigo e depois sai de fininho da conversa",
-        "b": "Tenta ajudar mas acaba roubando a cena",
-        "c": "Aponta para o amigo de longe e faz um joinha",
-        "d": "Recusa — não é sua praia"
+    "r5": {
+      "scenario": "No karaoke, o microfone chega ate voce. Todos olham com expectativa.",
+      "choices": {
+        "a": "Arrasa numa musica popular com confianca e presenca de palco",
+        "b": "Escolhe uma musica significativa e canta com emocao de verdade",
+        "c": "Escolhe algo ridiculo e faz uma performance comica hilaria"
       }
     },
-    "q6": {
-      "text": "Silêncio constrangedor no primeiro encontro. O que você faz?",
-      "options": {
-        "a": "Faz uma pergunta profunda aleatória: 'Qual é seu maior medo?'",
-        "b": "Menciona naturalmente algo que notou sobre a pessoa antes",
-        "c": "Fica sentado rezando para a comida chegar",
-        "d": "Faz uma piada autodepreciativa sobre silêncios constrangedores"
+    "r6": {
+      "scenario": "Voce esta sozinho no elevador com alguem incrivelmente atraente. 30 segundos!",
+      "choices": {
+        "a": "Diz 'Deve ser meu dia de sorte no elevador' e puxa conversa naturalmente",
+        "b": "Faz contato visual, sorri calorosamente e deseja um bom dia com sinceridade",
+        "c": "Pergunta 'Tem camera escondida aqui? Isso parece cena de filme'"
       }
     },
-    "q7": {
-      "text": "Um desconhecido elogia seu look. Como você reage?",
-      "options": {
-        "a": "Olha para si mesmo confuso e diz 'Isso? É velho...'",
-        "b": "Murmura 'obrigado' e sai andando rápido",
-        "c": "Diz 'Obrigado! Gostei do seu estilo também' e puxa papo",
-        "d": "Abre um sorrisão e diz 'Você alegrou meu dia'"
+    "r7": {
+      "scenario": "Seu amigo comeca a contar uma historia constrangedora sua numa reuniao.",
+      "choices": {
+        "a": "Entra na conversa com 'Mas voces nao ouviram a verdadeira reviravolta' e muda a narrativa",
+        "b": "Assume honestamente e diz 'E, aprendi muito com essa experiencia'",
+        "c": "Exagera ainda mais a historia e transforma em uma auto-zoacao hilaria"
       }
     },
-    "q8": {
-      "text": "O amigo atraente do seu ex começa a demonstrar interesse. Sua jogada?",
-      "options": {
-        "a": "Flerta de volta naturalmente — a vida é curta",
-        "b": "É amigável mas mantém distância apropriada",
-        "c": "Fica sem graça e muda de assunto",
-        "d": "Ignora completamente e finge que não percebeu"
+    "r8": {
+      "scenario": "Voce foi pego encarando alguem atraente. Seus olhares se cruzam!",
+      "choices": {
+        "a": "Nao desvia — sorri com confianca e acena sutilmente",
+        "b": "Se aproxima e diz 'Desculpa, sua energia e tao boa que nao resisti'",
+        "c": "Faz uma cara dramatica de surpresa e diz 'Achei que voce era famoso!'"
       }
     },
-    "q9": {
-      "text": "Você precisa fazer um brinde na festa de um amigo. O que acontece?",
-      "options": {
-        "a": "Trava e só diz 'Saúde'",
-        "b": "Prepara algo curto e fofo, um pouco nervoso",
-        "c": "Conta uma história engraçada que arranca risadas",
-        "d": "Improvisa um discurso emocionante que toca todos"
+    "r9": {
+      "scenario": "Um rival esta flertando agressivamente com a pessoa que voce gosta.",
+      "choices": {
+        "a": "Fica tranquilo e mostra seu charme no seu proprio ritmo",
+        "b": "Conecta com a pessoa atraves de uma conversa genuina e profunda",
+        "c": "Faz amizade com o rival e sugere 'Vamos sair nos tres!' — jogada inesperada"
       }
     },
-    "q10": {
-      "text": "Alguém que te interessa posta uma selfie incrível. Como você chega junto?",
-      "options": {
-        "a": "Reage com coração e torce para que perceba",
-        "b": "Não interage — não quer parecer desesperado",
-        "c": "Manda um DM esperto que menciona a foto naturalmente",
-        "d": "Só curte a foto e segue com a vida"
-      }
-    },
-    "q11": {
-      "text": "Seu amigo desafia você a ir falar com alguém bonito. O que você faz?",
-      "options": {
-        "a": "Diz 'Nem pensar' e recusa firmemente",
-        "b": "Vai até lá desajeitado e dá branco total",
-        "c": "Não precisa de desafio — já ia fazer isso",
-        "d": "Aceita o desafio e manda bem na conversa"
-      }
-    },
-    "q12": {
-      "text": "Fim de um encontro incrível. Como você se despede?",
-      "options": {
-        "a": "Um abraço caloroso, diz algo memorável e deixa querendo mais",
-        "b": "Acena desajeitado do outro lado do carro",
-        "c": "Diz 'Me diverti muito, vamos repetir' com um sorriso genuíno",
-        "d": "Só diz 'Tchau' e sai andando rápido"
+    "r10": {
+      "scenario": "Rodada final! O momento decisivo para dizer a alguem o que sente.",
+      "choices": {
+        "a": "Usa uma metafora brilhante para se declarar da forma mais criativa possivel",
+        "b": "Olha nos olhos e fala do coracao com honestidade total",
+        "c": "Faz a pessoa rir E chorar com uma declaracao divertida mas profundamente emocionante"
       }
     }
   },
   "results": {
-    "legendary": {
-      "name": "Rizz Lendário",
-      "archetype": "O Natural",
-      "description": "Você tem um charme magnético e sem esforço. As pessoas são atraídas por você sem que precise tentar. Sua confiança é genuína, seu humor é afiado e sua percepção social é excepcional. Você lê ambientes como um livro e faz todos ao seu redor se sentirem especiais.",
+    "superstar": {
+      "name": "Superestrela",
+      "description": "Nasceu para o palco! Voce cativa todos os jurados com charme avassalador. Domina naturalmente qualquer ambiente e atrai pessoas como um ima.",
       "tips": [
-        "Mantenha a humildade — seu charme é um dom, use-o para elevar os outros",
-        "Continue sendo autêntico — as pessoas percebem confiança falsa rapidamente",
-        "Seja mentor dos seus amigos menos confiantes — compartilhe a sabedoria do rizz"
+        "Humildade e o melhor amplificador de charme — brilhe sem ofuscar",
+        "Compartilhe os holofotes — ajude outros a se sentirem confiantes tambem",
+        "Mantenha-se autentico — seu maior charme e ser genuino"
       ]
     },
-    "certified": {
-      "name": "Rizzer Certificado",
-      "archetype": "O Operador Suave",
-      "description": "Você tem um jogo consistentemente forte. Sabe ler sinais sociais, dizer a coisa certa na hora certa e fazer as pessoas se sentirem confortáveis ao seu redor. Pode não ser sempre o mais barulhento, mas sempre deixa uma impressão.",
+    "headliner": {
+      "name": "Cabeca de Cartaz",
+      "description": "Material de palco principal! Deixa impressoes fortes e lida com a maioria das situacoes com charme e graca. Com mais polimento, alcancara status lendario.",
       "tips": [
-        "Expanda sua zona de conforto — tente iniciar conversas com total desconhecidos",
-        "Trabalhe na arte de contar histórias — boas histórias amplificam o charme",
-        "Pratique escuta ativa — é o multiplicador definitivo do rizz"
+        "Mostrar vulnerabilidade tambem e atraente — tudo bem nao ser perfeito",
+        "Ouca mais o que os outros realmente estao dizendo",
+        "Nao hesite em dar o primeiro passo em situacoes novas"
       ]
     },
-    "solid": {
-      "name": "Jogo Sólido",
-      "archetype": "O que Cresce",
-      "description": "Você tem uma boa base de charme que fica mais forte quanto mais confortável está. Pode começar devagar, mas quando se abre, as pessoas veem seu calor e sagacidade genuínos. Seu rizz é de queima lenta — e isso é um superpoder.",
+    "contender": {
+      "name": "Competidor",
+      "description": "Um desafiante cheio de potencial! Cria otimos momentos e seu charme explode quando esta confortavel. Construa mais confianca e dominara o palco.",
       "tips": [
-        "Não espere para se aquecer — tente ser seu 'eu confortável' desde o início",
-        "Pratique linguagem corporal confiante: contato visual, postura aberta, sorrisos genuínos",
-        "Lembre-se: rizz é fazer os outros se sentirem bem, não performar"
+        "Acumule pequenas vitorias — inicie uma conversa por dia com alguem novo",
+        "Pratique linguagem corporal: contato visual, postura aberta, sorrisos genuinos",
+        "Nao tenha medo de rejeicao — cada tentativa e experiencia ganha"
       ]
     },
-    "undercover": {
-      "name": "Rizz Disfarçado",
-      "archetype": "O Agente Adormecido",
-      "description": "Seu charme está lá — só está escondido sob a superfície. Você tem qualidades incríveis que as pessoas amam quando te conhecem, mas nem sempre brilham na primeira impressão. Seu rizz se ativa em grupos pequenos e um a um.",
+    "rookie": {
+      "name": "Novato",
+      "description": "Recem-subiu ao palco! Tem potencial de charme bruto que ainda esta sendo refinado. Com mais experiencia, crescera rapido e surpreendera a todos.",
       "tips": [
-        "Comece pequeno: um elogio por dia para fortalecer seu músculo de confiança",
-        "Prepare alguns temas de conversa para situações sociais",
-        "Foque na curiosidade genuína sobre os outros — faça perguntas complementares"
+        "Estude pessoas carismaticas — observe o que as torna magneticas",
+        "Pratique sozinho — confira seu sorriso e postura no espelho",
+        "Comece com conversas pequenas — diga algo extra pro barista hoje"
       ]
     },
-    "unspoken": {
-      "name": "Rizz Silencioso",
-      "archetype": "O Mistério",
-      "description": "Sua vibe fala mais alto que palavras. Pode não ser a pessoa mais extrovertida, mas há uma aura intrigante sobre você. Algumas pessoas são atraídas pela sua confiança silenciosa e energia misteriosa. Seu rizz não é sobre o que você diz — é sobre quem você é.",
+    "wallflower": {
+      "name": "Flor de Parede",
+      "description": "O observador silencioso! Brilha nos bastidores. Seu profundo charme interior leva tempo para se revelar, mas deixa impressoes profundas nos poucos que se aproximam.",
       "tips": [
-        "Abrace sua força silenciosa — nem todos precisam ser a alma da festa",
-        "Trabalhe em se abrir gradualmente — compartilhe algo pessoal em cada conversa",
-        "Seu mistério é atraente, mas não deixe que se torne uma barreira"
+        "Seu charme silencioso e valioso — assuma isso",
+        "Aproveite sua forca em situacoes um a um",
+        "Expanda sua zona de conforto gradualmente — um pequeno desafio diario"
       ]
     }
   },
+  "appealStyles": {
+    "witty": "Charmoso Sagaz — Mestre do Timing e da Criatividade",
+    "deep": "Charmoso Profundo — Poder da Sinceridade e Profundidade",
+    "funny": "Charmoso Humoristico — Conquistando Coracoes com Risadas"
+  },
   "result": {
-    "yourScore": "Seu Rizz Score",
-    "description": "Descrição",
+    "yourLevel": "Seu Nivel de Rizz",
+    "roundBreakdown": "Detalhamento por Rodada",
+    "description": "Analise de Estilo",
     "tips": "Dicas de Charme",
-    "retake": "Refazer Teste"
+    "retake": "Refazer Audicao"
   },
   "share": {
     "twitter": "Compartilhar no X",
     "copyUrl": "Copiar Link",
     "copied": "Link copiado!",
-    "text": "Meu Rizz Score: {score}/100 — {tier}! Qual é o seu?"
+    "text": "Audicao de Rizz: {score}/100 — {level}! Qual e seu nivel de charme?"
   },
   "a11y": {
-    "skip": "Pular para o conteúdo"
+    "skip": "Pular para o conteudo"
   }
 }

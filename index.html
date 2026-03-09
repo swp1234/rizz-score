@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>나의 리즈 점수는? | What's Your Rizz Score?</title>
-<meta name="description" content="12가지 소셜 시나리오로 나의 매력 점수(Rizz Score)를 측정해 보세요. 100점 만점 중 당신의 매력은?">
+<title>Rizz Audition | Charm Stage</title>
+<meta name="description" content="10 audition rounds with 3 judges scoring your charm. Discover your rizz level and appeal style!">
 
 <!-- Canonical & Hreflang -->
 <link rel="canonical" href="https://dopabrain.com/rizz-score/">
@@ -24,15 +24,15 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="What's Your Rizz Score?">
-<meta property="og:description" content="12 social scenarios to measure your charisma. Score 0-100 and discover your rizz archetype!">
+<meta property="og:title" content="Rizz Audition | Charm Stage">
+<meta property="og:description" content="10 audition rounds with 3 judges scoring your charm. What's your rizz level?">
 <meta property="og:url" content="https://dopabrain.com/rizz-score/">
 <meta property="og:site_name" content="DopaBrain">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="What's Your Rizz Score?">
-<meta name="twitter:description" content="12 social scenarios to measure your charisma. What's your rizz archetype?">
+<meta name="twitter:title" content="Rizz Audition | Charm Stage">
+<meta name="twitter:description" content="10 audition rounds with 3 judges. Discover your charm appeal style!">
 
 <!-- Styles -->
 <link rel="stylesheet" href="css/style.css">
@@ -42,9 +42,9 @@
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "What's Your Rizz Score?",
-  "alternateName": "나의 리즈 점수는?",
-  "description": "Measure your charisma and social charm through 12 scenario-based questions. Discover your rizz archetype and score out of 100.",
+  "name": "Rizz Audition | Charm Stage",
+  "alternateName": "Rizz Audition",
+  "description": "10 audition rounds with 3 judges scoring your charm performances. Discover your rizz level and appeal style.",
   "url": "https://dopabrain.com/rizz-score/",
   "applicationCategory": "EntertainmentApplication",
   "operatingSystem": "Any",
@@ -69,7 +69,7 @@
 <!-- App Loader -->
 <div id="app-loader" class="app-loader">
   <div class="loader-content">
-    <div class="loader-emoji">🔥</div>
+    <div class="loader-emoji">🎤</div>
     <div class="loader-spinner"></div>
   </div>
 </div>
@@ -104,34 +104,96 @@
   <!-- Start Screen -->
   <section id="start-screen" class="screen active">
     <div class="card glass-card start-card">
-      <div class="app-emoji">🔥</div>
-      <h1 data-i18n="app.title">나의 리즈 점수는?</h1>
-      <p class="subtitle" data-i18n="app.subtitle">12가지 소셜 시나리오로 나의 매력 점수를 측정해 보세요</p>
-      <p class="warning" data-i18n="app.warning">이 테스트는 재미를 위한 것이며, 실제 사회적 능력을 정확히 측정하지 않습니다.</p>
-      <button id="start-btn" class="btn btn-primary" data-i18n="app.start">테스트 시작</button>
+      <div class="stage-lights start-lights">
+        <div class="spotlight spot-left"></div>
+        <div class="spotlight spot-right"></div>
+      </div>
+      <div class="app-emoji">🎤</div>
+      <h1 data-i18n="app.title">Rizz Audition</h1>
+      <p class="subtitle" data-i18n="app.subtitle">Step onto the stage. 3 judges. 10 rounds. Show your charm.</p>
+      <div class="judges-preview">
+        <div class="judge-avatar"><span>😎</span><small data-i18n="judges.wit">Wit</small></div>
+        <div class="judge-avatar"><span>🧐</span><small data-i18n="judges.depth">Depth</small></div>
+        <div class="judge-avatar"><span>🤣</span><small data-i18n="judges.humor">Humor</small></div>
+      </div>
+      <p class="warning" data-i18n="app.warning">For entertainment only. Not a real charm assessment.</p>
+      <button id="start-btn" class="btn btn-primary" data-i18n="app.start">Take the Stage</button>
     </div>
   </section>
 
-  <!-- Quiz Screen -->
-  <section id="quiz-screen" class="screen">
-    <div class="card glass-card quiz-card">
-      <div class="progress-bar">
-        <div id="progress-fill" class="progress-fill"></div>
+  <!-- Audition Screen -->
+  <section id="audition-screen" class="screen">
+    <div class="card glass-card audition-card">
+      <!-- Stage header -->
+      <div class="stage-header">
+        <div class="round-indicator">
+          <span data-i18n="stage.round">Round</span>
+          <span id="round-num" class="round-num">1</span>
+          <span>/ 10</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
       </div>
-      <div class="question-counter">
-        <span id="current-q">1</span> / <span id="total-q">12</span>
+
+      <!-- Stage lighting -->
+      <div class="stage-area">
+        <div class="stage-lights">
+          <div class="spotlight spot-left"></div>
+          <div class="spotlight spot-center"></div>
+          <div class="spotlight spot-right"></div>
+        </div>
+
+        <!-- Scenario -->
+        <div class="scenario-box">
+          <div id="scenario-icon" class="scenario-icon">🎭</div>
+          <p id="scenario-text" class="scenario-text"></p>
+        </div>
+
+        <!-- Performance choices -->
+        <div id="choices-container" class="choices-container"></div>
       </div>
-      <h2 id="question-text" class="question-text"></h2>
-      <div id="options-container" class="options-container"></div>
+
+      <!-- Judge panel -->
+      <div id="judge-panel" class="judge-panel">
+        <div class="judge" data-judge="wit">
+          <div class="judge-face" id="judge-wit-face">😎</div>
+          <div class="judge-name" data-i18n="judges.wit">Wit</div>
+          <div class="judge-score" id="judge-wit-score">-</div>
+        </div>
+        <div class="judge" data-judge="depth">
+          <div class="judge-face" id="judge-depth-face">🧐</div>
+          <div class="judge-name" data-i18n="judges.depth">Depth</div>
+          <div class="judge-score" id="judge-depth-score">-</div>
+        </div>
+        <div class="judge" data-judge="humor">
+          <div class="judge-face" id="judge-humor-face">🤣</div>
+          <div class="judge-name" data-i18n="judges.humor">Humor</div>
+          <div class="judge-score" id="judge-humor-score">-</div>
+        </div>
+      </div>
+
+      <!-- Live scoreboard -->
+      <div class="scoreboard">
+        <div class="scoreboard-label" data-i18n="stage.totalScore">Total Score</div>
+        <div id="live-score" class="live-score">0</div>
+        <div class="scoreboard-max">/ 300</div>
+      </div>
     </div>
   </section>
 
   <!-- Result Screen -->
   <section id="result-screen" class="screen">
     <div class="card glass-card result-card">
+      <div class="stage-lights result-lights">
+        <div class="spotlight spot-left"></div>
+        <div class="spotlight spot-center"></div>
+        <div class="spotlight spot-right"></div>
+      </div>
+
       <div class="result-reveal">
-        <div id="result-emoji" class="result-emoji">🔥</div>
-        <h2 data-i18n="result.yourScore" class="result-label">Your Rizz Score</h2>
+        <div id="result-emoji" class="result-emoji">🎤</div>
+        <h2 data-i18n="result.yourLevel" class="result-label">Your Rizz Level</h2>
         <div class="score-meter-container">
           <svg class="score-meter" viewBox="0 0 200 200" aria-hidden="true">
             <circle class="meter-track" cx="100" cy="100" r="85" />
@@ -141,26 +203,49 @@
             <span id="score-number" class="score-number">0</span>
           </div>
         </div>
-        <h2 id="result-tier" class="result-tier"></h2>
-        <p id="result-archetype" class="result-archetype"></p>
+        <h2 id="result-level" class="result-level"></h2>
+        <p id="result-style" class="result-style"></p>
       </div>
 
-      <div class="result-details">
-        <div class="result-section">
-          <h3 data-i18n="result.description">설명</h3>
-          <p id="result-desc" class="result-desc"></p>
+      <!-- Judge final scores -->
+      <div class="final-judges">
+        <div class="final-judge">
+          <span class="fj-emoji">😎</span>
+          <span class="fj-label" data-i18n="judges.wit">Wit</span>
+          <span id="fj-wit" class="fj-score">0</span>
         </div>
+        <div class="final-judge">
+          <span class="fj-emoji">🧐</span>
+          <span class="fj-label" data-i18n="judges.depth">Depth</span>
+          <span id="fj-depth" class="fj-score">0</span>
+        </div>
+        <div class="final-judge">
+          <span class="fj-emoji">🤣</span>
+          <span class="fj-label" data-i18n="judges.humor">Humor</span>
+          <span id="fj-humor" class="fj-score">0</span>
+        </div>
+      </div>
 
-        <div class="result-section">
-          <h3 data-i18n="result.tips">매력 팁</h3>
-          <ul id="result-tips" class="tips-list"></ul>
-        </div>
+      <!-- Round-by-round breakdown -->
+      <div class="result-section">
+        <h3 data-i18n="result.roundBreakdown">Round Breakdown</h3>
+        <div id="round-breakdown" class="round-breakdown"></div>
+      </div>
+
+      <div class="result-section">
+        <h3 data-i18n="result.description">About Your Style</h3>
+        <p id="result-desc" class="result-desc"></p>
+      </div>
+
+      <div class="result-section">
+        <h3 data-i18n="result.tips">Charm Tips</h3>
+        <ul id="result-tips" class="tips-list"></ul>
       </div>
 
       <div class="result-actions">
-        <button id="share-twitter" class="btn btn-share btn-twitter" data-i18n="share.twitter">트위터 공유</button>
-        <button id="share-copy" class="btn btn-share btn-copy" data-i18n="share.copyUrl">링크 복사</button>
-        <button id="retake-btn" class="btn btn-primary" data-i18n="result.retake">다시 테스트</button>
+        <button id="share-twitter" class="btn btn-share btn-twitter" data-i18n="share.twitter">Share on X</button>
+        <button id="share-copy" class="btn btn-share btn-copy" data-i18n="share.copyUrl">Copy Link</button>
+        <button id="retake-btn" class="btn btn-primary" data-i18n="result.retake">Retake Audition</button>
       </div>
     </div>
 
@@ -174,6 +259,6 @@
 <script src="js/i18n.js"></script>
 <script src="js/app.js"></script>
 <script src="/portal/js/cross-promo.js" defer></script>
-  <script>if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}</script>
+<script>if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}</script>
 </body>
 </html>

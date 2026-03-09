@@ -1,187 +1,169 @@
 {
   "meta": {
-    "title": "What's Your Rizz Score? | Charisma Quiz",
-    "description": "Measure your rizz through 12 social scenarios. Score 0-100 and discover your charisma archetype!"
+    "title": "Rizz Audition | Charm Stage",
+    "description": "10 audition rounds with 3 judges scoring your charm. Discover your rizz level and appeal style!"
   },
   "app": {
-    "title": "What's Your Rizz Score?",
-    "subtitle": "12 social scenarios to measure your charisma and charm",
-    "warning": "This quiz is for entertainment purposes only and does not accurately measure real social skills.",
-    "start": "Start Quiz"
+    "title": "Rizz Audition",
+    "subtitle": "Step onto the stage. 3 judges. 10 rounds. Show your charm.",
+    "warning": "For entertainment only. Not a real charm assessment.",
+    "start": "Take the Stage"
   },
-  "questions": {
-    "q1": {
-      "text": "Someone attractive catches your eye across the room. What do you do?",
-      "options": {
-        "a": "Walk over confidently and start a conversation",
-        "b": "Smile and make eye contact, wait for them to come to you",
-        "c": "Look away quickly and hope they didn't notice",
-        "d": "Pretend to be on your phone and avoid all contact"
+  "judges": {
+    "wit": "Wit",
+    "depth": "Depth",
+    "humor": "Humor"
+  },
+  "stage": {
+    "round": "Round",
+    "totalScore": "Total Score"
+  },
+  "rounds": {
+    "r1": {
+      "scenario": "You arrive at a party and know absolutely no one. What's your power move?",
+      "choices": {
+        "a": "Slide into the liveliest group with a clever icebreaker",
+        "b": "Find a quiet corner, observe, then start a genuine conversation",
+        "c": "Head to the DJ and request a banger to get the crowd going"
       }
     },
-    "q2": {
-      "text": "Your crush sends you a vague text: 'Hey, are you free tonight?' How do you respond?",
-      "options": {
-        "a": "Overthink it for 30 minutes, screenshot it, send to group chat",
-        "b": "Reply smoothly: 'Depends on what you have in mind'",
-        "c": "Panic and leave them on read for two hours",
-        "d": "Say 'Yeah, what's up?' — casual and cool"
+    "r2": {
+      "scenario": "Your crush sends you a vague text: 'What are you up to?'",
+      "choices": {
+        "a": "Reply 'I was just thinking about you. Telepathy?' — smooth and witty",
+        "b": "Honestly share what you're doing and ask 'How about you?' with genuine interest",
+        "c": "Send back 'Planning world domination. Want in?' — playful and funny"
       }
     },
-    "q3": {
-      "text": "You're at a party where you don't know anyone. What's your move?",
-      "options": {
-        "a": "Find the host and ask them to introduce you around",
-        "b": "Stand by the snack table scrolling through your phone",
-        "c": "Become the DJ or start a game — take charge of the vibe",
-        "d": "Quietly observe and only talk when spoken to"
+    "r3": {
+      "scenario": "Awkward silence hits during a first date. It's been 5+ seconds.",
+      "choices": {
+        "a": "Say 'If this silence feels comfortable, we might be soulmates' — clever save",
+        "b": "Look into their eyes and say 'Tell me more about what you mentioned earlier' — deep connection",
+        "c": "Point out 'We just sipped our drinks at the exact same time!' — comedy relief"
       }
     },
-    "q4": {
-      "text": "Your date accidentally spills their drink. How do you handle it?",
-      "options": {
-        "a": "Stare in awkward silence",
-        "b": "Say 'It's okay' and quickly help clean up",
-        "c": "Make a joke to lighten the mood",
-        "d": "Laugh it off, spill a bit of yours too, say 'Now we're even'"
+    "r4": {
+      "scenario": "Someone at the next table is obviously hitting on your date right in front of you.",
+      "choices": {
+        "a": "Stay cool, smile confidently, and focus all your attention on your date",
+        "b": "Take your date's hand and say 'I'm really glad you're here with me'",
+        "c": "Glance at the admirer and joke 'Can't blame them for having good taste'"
       }
     },
-    "q5": {
-      "text": "A friend asks you to be their wingman/wingwoman. What's your strategy?",
-      "options": {
-        "a": "Hype them up to the person, then smoothly exit the conversation",
-        "b": "Try your best but accidentally make it about yourself",
-        "c": "Just point at them from across the room and give a thumbs up",
-        "d": "Decline — you're not great at that kind of thing"
+    "r5": {
+      "scenario": "At karaoke, the mic is handed to you. Everyone's watching expectantly.",
+      "choices": {
+        "a": "Nail a crowd-pleaser with confidence and stage presence",
+        "b": "Pick a meaningful song and pour your heart into an emotional performance",
+        "c": "Choose something ridiculous and do a hilarious comedy performance"
       }
     },
-    "q6": {
-      "text": "There's an awkward silence on a first date. What do you do?",
-      "options": {
-        "a": "Ask a random deep question like 'What's your biggest fear?'",
-        "b": "Smoothly bring up something you noticed about them earlier",
-        "c": "Sit there and pray for the food to arrive",
-        "d": "Make a self-deprecating joke about awkward silences"
+    "r6": {
+      "scenario": "You're alone in an elevator with someone incredibly attractive. 30 seconds!",
+      "choices": {
+        "a": "Say 'Must be my lucky elevator day' and start a smooth conversation",
+        "b": "Make eye contact, smile warmly, and wish them a great day with sincerity",
+        "c": "Ask 'Is there a hidden camera? This feels like a scene from a movie'"
       }
     },
-    "q7": {
-      "text": "A stranger compliments your outfit. How do you react?",
-      "options": {
-        "a": "Look down at yourself confused and say 'This old thing?'",
-        "b": "Mumble 'thanks' and speed-walk away",
-        "c": "Say 'Thanks! I like your style too' and start chatting",
-        "d": "Smile big, say 'You just made my day', and keep walking"
+    "r7": {
+      "scenario": "Your friend starts telling an embarrassing story about you at a group gathering.",
+      "choices": {
+        "a": "Jump in with 'Oh, but you haven't heard the real plot twist' and flip the narrative",
+        "b": "Own it honestly and say 'Yeah, I learned a lot from that experience'",
+        "c": "Exaggerate the story even more and turn it into a hilarious self-roast"
       }
     },
-    "q8": {
-      "text": "Your ex's attractive friend starts showing interest. Your move?",
-      "options": {
-        "a": "Flirt back naturally — life's too short for drama",
-        "b": "Be friendly but keep appropriate distance",
-        "c": "Get flustered and change the subject",
-        "d": "Ignore it completely and act like you didn't notice"
+    "r8": {
+      "scenario": "You got caught staring at someone attractive. Your eyes meet!",
+      "choices": {
+        "a": "Don't look away — smile confidently and give a subtle nod",
+        "b": "Walk over and say 'Sorry, you had such good energy I couldn't help but notice'",
+        "c": "Do a dramatic double-take and say 'Oh! I thought you were a celebrity!'"
       }
     },
-    "q9": {
-      "text": "You need to make a toast at a friend's party. What happens?",
-      "options": {
-        "a": "You freeze up and just say 'Cheers, I guess'",
-        "b": "You prepare something short and sweet, a little nervous",
-        "c": "You tell a quick funny story that gets some laughs",
-        "d": "You wing it and deliver a heartfelt speech that moves the room"
+    "r9": {
+      "scenario": "A rival is aggressively flirting with the person you like.",
+      "choices": {
+        "a": "Stay unbothered and show your charm at your own pace",
+        "b": "Connect with your person through genuine, deep conversation",
+        "c": "Befriend the rival and suggest 'Hey, let's all hang out!' — unexpected move"
       }
     },
-    "q10": {
-      "text": "Someone you're interested in posts a fire selfie. How do you slide in?",
-      "options": {
-        "a": "React with a heart emoji and hope they notice",
-        "b": "Don't interact — you don't want to seem thirsty",
-        "c": "DM something witty that references the photo naturally",
-        "d": "Just like the photo and go about your day"
-      }
-    },
-    "q11": {
-      "text": "Your friend dares you to go talk to someone cute. What do you do?",
-      "options": {
-        "a": "Say 'No way' and firmly decline",
-        "b": "Walk over awkwardly and completely blank on what to say",
-        "c": "No dare needed — you were already planning to",
-        "d": "Accept the dare, go over, and somehow pull off a great conversation"
-      }
-    },
-    "q12": {
-      "text": "End of a great date. How do you say goodbye?",
-      "options": {
-        "a": "Give a warm hug, say something memorable, leave them wanting more",
-        "b": "Awkward wave from across the car",
-        "c": "Say 'I had fun, let's do this again' with a genuine smile",
-        "d": "Just say 'Bye' and walk away quickly"
+    "r10": {
+      "scenario": "Final round! The decisive moment to tell someone how you feel.",
+      "choices": {
+        "a": "Use a brilliant metaphor to confess in the most clever way possible",
+        "b": "Look them in the eyes and speak from the heart with raw honesty",
+        "c": "Make them laugh AND cry with a confession that's funny yet deeply touching"
       }
     }
   },
   "results": {
-    "legendary": {
-      "name": "Legendary Rizz",
-      "archetype": "The Natural",
-      "description": "You have effortless, magnetic charm. People are drawn to you without you even trying. Your confidence is genuine, your humor is sharp, and your social awareness is off the charts. You read rooms like a book and make everyone around you feel special.",
+    "superstar": {
+      "name": "Superstar",
+      "description": "Born for the stage! You captivate every judge with overwhelming charm. You naturally command any room and draw people in like a magnet. Your social instincts are extraordinary.",
       "tips": [
-        "Stay humble — your charm is a gift, use it to lift others up",
-        "Keep being authentic — people can spot fake confidence a mile away",
-        "Mentor your less confident friends — share the rizz wisdom"
+        "Humility is the ultimate charm multiplier — shine without blinding",
+        "Share the spotlight — help others feel confident too",
+        "Stay authentic — your greatest charm is being genuine"
       ]
     },
-    "certified": {
-      "name": "Certified Rizzer",
-      "archetype": "The Smooth Operator",
-      "description": "You've got consistently strong game. You know how to read social cues, deliver the right line at the right time, and make people feel comfortable around you. You might not always be the loudest in the room, but you always leave an impression.",
+    "headliner": {
+      "name": "Headliner",
+      "description": "Main stage material! You leave strong impressions and handle most situations with charm and grace. With a little more polish, you'll reach legendary status.",
       "tips": [
-        "Push your comfort zone — try starting conversations with complete strangers",
-        "Work on your storytelling — great stories amplify great charm",
-        "Practice active listening — it's the ultimate rizz multiplier"
+        "Showing vulnerability is attractive too — it's okay not to be perfect",
+        "Listen more to what others are really saying",
+        "Don't hesitate to make the first move in new situations"
       ]
     },
-    "solid": {
-      "name": "Solid Game",
-      "archetype": "The Grower",
-      "description": "You've got a good foundation of charm that gets stronger the more comfortable you are. You might start slow, but once you open up, people see your genuine warmth and wit. Your rizz is a slow burn — and that's a superpower.",
+    "contender": {
+      "name": "Contender",
+      "description": "A challenger full of potential! You create great moments and your charm explodes once you're comfortable. Build more confidence and you'll own the stage.",
       "tips": [
-        "Don't wait to warm up — try being your 'comfortable self' from the start",
-        "Practice confident body language: eye contact, open posture, genuine smiles",
-        "Remember: rizz is about making others feel good, not performing"
+        "Stack small wins — start one conversation a day with someone new",
+        "Practice body language: eye contact, open posture, genuine smiles",
+        "Don't fear rejection — every attempt is experience gained"
       ]
     },
-    "undercover": {
-      "name": "Undercover Rizz",
-      "archetype": "The Sleeper Agent",
-      "description": "Your charm is there — it's just hiding beneath the surface. You have great qualities that people love once they get to know you, but you don't always let them shine in the first impression. Your rizz activates in small groups and one-on-one.",
+    "rookie": {
+      "name": "Rookie",
+      "description": "Just stepped on stage! You have raw charm potential that's still being refined. With more experience, you'll grow fast and surprise everyone.",
       "tips": [
-        "Start small: give one compliment a day to build your confidence muscle",
-        "Prepare a few go-to conversation starters for social situations",
-        "Focus on genuine curiosity about others — ask follow-up questions"
+        "Study charismatic people — observe what makes them magnetic",
+        "Practice solo — check your smile and posture in the mirror",
+        "Start with small talk — say one extra thing to your barista today"
       ]
     },
-    "unspoken": {
-      "name": "Unspoken Rizz",
-      "archetype": "The Mystery",
-      "description": "Your vibe speaks louder than words. You might not be the most outgoing person, but there's an intriguing aura about you. Some people are drawn to your quiet confidence and mysterious energy. Your rizz isn't about what you say — it's about who you are.",
+    "wallflower": {
+      "name": "Wallflower",
+      "description": "The quiet observer! You shine backstage. Your deep inner charm takes time to reveal, but you leave profound impressions on the few who get close.",
       "tips": [
-        "Embrace your quiet strength — not everyone needs to be the life of the party",
-        "Work on opening up gradually — share one personal thing per conversation",
-        "Your mystery is attractive, but don't let it become a wall"
+        "Your quiet charm is valuable — own it",
+        "Leverage your strength in one-on-one situations",
+        "Expand your comfort zone gradually — one small challenge daily"
       ]
     }
   },
+  "appealStyles": {
+    "witty": "Witty Charmer — Master of Timing & Cleverness",
+    "deep": "Deep Charmer — Power of Sincerity & Depth",
+    "funny": "Humor Charmer — Winning Hearts Through Laughter"
+  },
   "result": {
-    "yourScore": "Your Rizz Score",
-    "description": "Description",
+    "yourLevel": "Your Rizz Level",
+    "roundBreakdown": "Round Breakdown",
+    "description": "Style Analysis",
     "tips": "Charm Tips",
-    "retake": "Retake Quiz"
+    "retake": "Retake Audition"
   },
   "share": {
     "twitter": "Share on X",
     "copyUrl": "Copy Link",
     "copied": "Link copied!",
-    "text": "My Rizz Score: {score}/100 — {tier}! What's yours?"
+    "text": "Rizz Audition: {score}/100 — {level}! What's your charm level?"
   },
   "a11y": {
     "skip": "Skip to content"

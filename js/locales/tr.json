@@ -1,189 +1,171 @@
 {
   "meta": {
-    "title": "Rizz Puanın Kaç? | Karizma Testi",
-    "description": "12 sosyal senaryoyla karizma puanını ölç. 0-100 arası puan ve çekicilik arketipini keşfet!"
+    "title": "Rizz Audition | Cazibe Sahnesi",
+    "description": "3 juri onunde 10 tur cazibe secimleri! Cazibe seviyeni ve cekicilik stilini kesfet!"
   },
   "app": {
-    "title": "Rizz Puanın Kaç?",
-    "subtitle": "12 sosyal senaryoyla karizma ve çekiciliğini ölç",
-    "warning": "Bu test yalnızca eğlence amaçlıdır ve gerçek sosyal becerileri doğru ölçmez.",
-    "start": "Teste Başla"
+    "title": "Cazibe Secimleri",
+    "subtitle": "Sahneye cik. 3 juri. 10 tur. Cazibenizi gosterin.",
+    "warning": "Sadece eglence amaclidir. Gercek cazibe olcumu degildir.",
+    "start": "Sahneye Cik"
   },
-  "questions": {
-    "q1": {
-      "text": "Odanın karşı tarafından çekici biri sana bakıyor. Ne yaparsın?",
-      "options": {
-        "a": "Özgüvenle gidip sohbet başlatırsın",
-        "b": "Gülümser ve göz teması kurarsın, onun gelmesini beklersin",
-        "c": "Hemen bakışını kaçırır ve fark etmemiş olmasını umarsın",
-        "d": "Telefona bakar gibi yapıp tüm temastan kaçınırsın"
+  "judges": {
+    "wit": "Zeka",
+    "depth": "Derinlik",
+    "humor": "Mizah"
+  },
+  "stage": {
+    "round": "Tur",
+    "totalScore": "Toplam Puan"
+  },
+  "rounds": {
+    "r1": {
+      "scenario": "Bir partiye geldiniz ama kimseyi tanimiyorsunuz. Ilk hamleniz ne?",
+      "choices": {
+        "a": "En canli gruba zekice bir selamla katilirsiniz",
+        "b": "Sessizce gozlemler, sonra samimi bir sohbet baslatirsiniz",
+        "c": "DJ'e gidip havali bir sarki isteyerek ortami atesllersiniz"
       }
     },
-    "q2": {
-      "text": "Hoşlandığın kişi belirsiz bir mesaj atar: 'Bu akşam müsait misin?' Nasıl cevap verirsin?",
-      "options": {
-        "a": "30 dakika düşünür, ekran görüntüsü alıp gruba atarsın",
-        "b": "Şık bir şekilde cevaplarsın: 'Planına bağlı'",
-        "c": "Panik olur ve iki saat okundu bırakırsın",
-        "d": "'Evet, neden?' — rahat ve soğukkanlı"
+    "r2": {
+      "scenario": "Hoslandiginiz kisi belirsiz bir mesaj atiyor: 'Ne yapiyorsun?'",
+      "choices": {
+        "a": "'Tam seni dusunuyordum. Telepati mi?' diye zekice cevap verirsiniz",
+        "b": "Durustce ne yaptiginizi soyleyip samimi bir sekilde 'Sen?' diye sorarsiniz",
+        "c": "'Dunya hakimiyeti planliyorum. Katilir misin?' diye eglenceli cevap verirsiniz"
       }
     },
-    "q3": {
-      "text": "Kimseyi tanımadığın bir partidessin. Hamlen ne?",
-      "options": {
-        "a": "Ev sahibini bulup tanıştırmasını istersin",
-        "b": "Atıştırmalık masasının yanında telefona bakarsın",
-        "c": "DJ olur veya oyun başlatırsın — ortamı yönetirsin",
-        "d": "Sessizce gözlemler ve sadece konuşulunca cevap verirsin"
+    "r3": {
+      "scenario": "Ilk bulusmada 5 saniyeden fazla garip bir sessizlik oluyor.",
+      "choices": {
+        "a": "'Bu sessizlik rahatsiz ediyorsa, ruh ikizi olabiliriz' diye akilli bir kurtaris yapirsiniz",
+        "b": "Gozlerine bakip 'Onceki soyledigin hakkinda daha fazla anlat' diye derin baglanti kurarsiniiz",
+        "c": "'Az once ayni anda yudum aldik!' diye komedi kurtarisi yapirsiniz"
       }
     },
-    "q4": {
-      "text": "Randevu arkadaşın yanlışlıkla içeceğini döker. Nasıl tepki verirsin?",
-      "options": {
-        "a": "Garip bir sessizlikle izlersin",
-        "b": "'Sorun değil' dersin ve hızla temizlemeye yardım edersin",
-        "c": "Ortamı yumuşatmak için espri yaparsın",
-        "d": "Güler, kendininkinden de biraz döker, 'Şimdi eşitiz' dersin"
+    "r4": {
+      "scenario": "Bulusma sirasinda yan masadan biri acikca randevu arkadasiniza asik oluyor.",
+      "choices": {
+        "a": "Sakin kalin, guvenlice gulumseyin ve tum dikkatinizi randevunuza verin",
+        "b": "Arkadasinizin elini tutup 'Burada oldugun icin cok mutluyum' deyin",
+        "c": "Hayranini bakip 'Onlari sucleyemem, iyi zevkleri var' diye saka yapin"
       }
     },
-    "q5": {
-      "text": "Arkadaşın senden kanat adam olmanı ister. Stratejin ne?",
-      "options": {
-        "a": "Arkadaşını övüp sonra nazikçe çekilirsin",
-        "b": "Yardım etmeye çalışır ama yanlışlıkla kendini ön plana çıkarırsın",
-        "c": "Uzaktan arkadaşını gösterip başparmak kaldırırsın",
-        "d": "Reddedersin — bu senin tarzın değil"
+    "r5": {
+      "scenario": "Karaokede mikrofon size geldi. Herkes beklentiyle izliyor.",
+      "choices": {
+        "a": "Guvenlice populer bir sarki soyleyerek sahne hakimiyeti gosterin",
+        "b": "Anlamli bir sarki secip duygusal bir performans sergileyin",
+        "c": "Absurt bir sey secip komik bir gosteri yapin"
       }
     },
-    "q6": {
-      "text": "İlk buluşmada garip bir sessizlik oluyor. Ne yaparsın?",
-      "options": {
-        "a": "Rastgele derin bir soru sorarsın: 'En büyük korkun ne?'",
-        "b": "Daha önce onun hakkında fark ettiğin bir şeyi doğal biçimde söylersin",
-        "c": "Oturup yemeğin gelmesi için dua edersin",
-        "d": "Garip sessizlikler hakkında öz-eleştirel bir espri yaparsın"
+    "r6": {
+      "scenario": "Asansorde inanilmaz cekici biriyle basbasiniz. 30 saniye!",
+      "choices": {
+        "a": "'Bugun asansor sans gunum olmali' deyip dogal bir sohbet baslatirsiniz",
+        "b": "Goz temasi kurup sicakca gulumser ve samimiyetle iyi gunler dilersiniz",
+        "c": "'Burada gizli kamera var mi? Bu bir film sahnesi gibi' diye sorarsiniz"
       }
     },
-    "q7": {
-      "text": "Tanımadığın biri kıyafetini övüyor. Nasıl tepki verirsin?",
-      "options": {
-        "a": "Kendine bakıp şaşkın bir şekilde 'Bu mu? Eski bir şey...' dersin",
-        "b": "'Teşekkürler' diye mırıldanıp hızla uzaklaşırsın",
-        "c": "'Teşekkürler! Senin tarzın da çok güzel' deyip sohbet başlatırsın",
-        "d": "Geniş bir gülümsemeyle 'Günümü güzelleştirdin' dersin"
+    "r7": {
+      "scenario": "Arkadasiniz toplantida utanc verici bir hikaayenizi anlatmaya basliyor.",
+      "choices": {
+        "a": "'Ama gercek donusu henuz duymaimdiniz' diyerek hikayeyi cevirin",
+        "b": "Durustce kabul edip 'Evet, o deneyimden cok sey ogrendim' deyin",
+        "c": "Hikayeyi daha da abartip ozsistiri yaparak herkesi guldurursunuz"
       }
     },
-    "q8": {
-      "text": "Eski sevgilinin çekici arkadaşı ilgi göstermeye başlıyor. Hamlen ne?",
-      "options": {
-        "a": "Doğal bir şekilde flört edersin — hayat kısa",
-        "b": "Arkadaş canlısısın ama uygun mesafeyi korursun",
-        "c": "Telaşlanıp konu değiştirirsin",
-        "d": "Tamamen görmezden gelir, fark etmemiş gibi davranırsın"
+    "r8": {
+      "scenario": "Cekici birine bakarken yakalandiniz. Gozleriniz bulustu!",
+      "choices": {
+        "a": "Gozunuzu kacirmayin — guvenlice gulumseyin ve hafifce bas sallayin",
+        "b": "Yanina gidip 'Ozur dilerim, enerjiniz o kadar iyiydi ki fark etmeden baktim' deyin",
+        "c": "Dramatik bir sasirmis ifade yapip 'Sizi unlu biri sandim!' deyin"
       }
     },
-    "q9": {
-      "text": "Arkadaşının partisinde kadeh kaldırman gerekiyor. Ne olur?",
-      "options": {
-        "a": "Donar ve sadece 'Şerefe' dersin",
-        "b": "Kısa ve tatlı bir şey hazırlarsın, biraz gergin",
-        "c": "Komik bir anı anlatıp herkesi güldürürsün",
-        "d": "Doğaçlama içten bir konuşma yapıp herkesi etkilersin"
+    "r9": {
+      "scenario": "Bir rakip, hoslandiginiz kisiyle agresif bir sekilde flort ediyor.",
+      "choices": {
+        "a": "Sakin kalin ve cazibenizi kendi hizinizda gosterin",
+        "b": "Samimi, derin bir sohbetle o kisiyle baglanin",
+        "c": "Rakiple arkakas olup 'Ucumuz birlikte takilalim!' deyin — beklenmedik hamle"
       }
     },
-    "q10": {
-      "text": "Hoşlandığın kişi harika bir selfie paylaşıyor. Nasıl yaklaşırsın?",
-      "options": {
-        "a": "Kalp emojisiyle tepki verir ve fark etmesini umarsın",
-        "b": "Etkileşime girmezsin — umutsuz görünmek istemezsin",
-        "c": "Fotoğraftan doğal bir şekilde bahseden espritüel bir DM atarsın",
-        "d": "Beğenir ve hayatına devam edersin"
-      }
-    },
-    "q11": {
-      "text": "Arkadaşın seni güzel birine gitmeye zorluyor. Ne yaparsın?",
-      "options": {
-        "a": "'Asla' deyip kesinlikle reddedersin",
-        "b": "Garip bir şekilde yaklaşıp ne diyeceğini unutursun",
-        "c": "Meydan okumaya gerek yok — zaten yapacaktın",
-        "d": "Meydan okumayı kabul eder, gidip harika bir sohbet sürdürürsün"
-      }
-    },
-    "q12": {
-      "text": "Harika bir buluşma sona eriyor. Nasıl vedalaşırsın?",
-      "options": {
-        "a": "Sıcak bir kucaklama, unutulmaz bir söz ve merak bırakırsın",
-        "b": "Arabanın öbür tarafından garip bir el sallama",
-        "c": "'Çok eğlendim, tekrarlayalım' diye samimi bir gülümsemeyle söylersin",
-        "d": "Sadece 'Hoşça kal' deyip hızla yürürsün"
+    "r10": {
+      "scenario": "Son tur! Birine hislerinizi aciklmanin belirleyici ani.",
+      "choices": {
+        "a": "Parlak bir benzetme kullanarak en yaratici sekilde itiraf edin",
+        "b": "Gozlerine bakip tam bir durusttlukle kalpten konusun",
+        "c": "Hem gulduren hem aglatan, komik ama derinden dokunan bir itiraf yapin"
       }
     }
   },
   "results": {
-    "legendary": {
-      "name": "Efsanevi Rizz",
-      "archetype": "Doğuştan Yetenekli",
-      "description": "Zahmetsiz, manyetik bir çekiciliğin var. İnsanlar sen çabalamadan bile sana çekiliyorlar. Özgüvenin gerçek, espri anlayışın keskin ve sosyal farkındalığın üst düzey. Ortamı bir kitap gibi okur ve etrafındaki herkesi özel hissettirirsin.",
+    "superstar": {
+      "name": "Superstar",
+      "description": "Sahne icin dogmus! Tum jurileri ezici cazibeyle buyuluyor. Herhangi bir ortama dogal olarak hakim oluyor ve insanlari miknaatis gibi cekiyorsunuz.",
       "tips": [
-        "Alçakgönüllü kal — çekiciliğin bir armağan, başkalarını yükseltmek için kullan",
-        "Otantik olmaya devam et — sahte özgüven kilometrelerce öteden belli olur",
-        "Daha az özgüvenli arkadaşlarına akıl hocası ol"
+        "Alcakgonulluluk en iyi cazibe amplifikatorudur — parla ama kor etme",
+        "Sahneyi paylas — baskalarina da guvenlei hissetmelerinde yardim et",
+        "Otantik kal — en buyuk caziben gercek olman"
       ]
     },
-    "certified": {
-      "name": "Sertifikalı Rizzer",
-      "archetype": "Pürüzsüz Operatör",
-      "description": "Sürekli güçlü bir oyunun var. Sosyal ipuçlarını okumayı, doğru zamanda doğru şeyi söylemeyi ve insanları yanında rahat hissettirmeyi biliyorsun. Her zaman en gürültücü olmayabilirsin ama her zaman iz bırakırsın.",
+    "headliner": {
+      "name": "Headliner",
+      "description": "Ana sahne materyali! Guclu izlenimler birakirsiniz ve cogu durumu zarafetle idare edersiniz. Biraz daha cilalama ile efsane statuse ulasabilirsiniz.",
       "tips": [
-        "Konfor alanını genişlet — tamamen yabancılarla sohbet başlatmayı dene",
-        "Hikaye anlatma yeteneğini geliştir — iyi hikayeler çekiciliği artırır",
-        "Aktif dinlemeyi pratik yap — rizz'in en büyük çarpanı"
+        "Savunmasizlik gostermek de cekici — mukemmel olmak zorunda degilsin",
+        "Baskalarnin gercekten ne soyledigini daha fazla dinle",
+        "Yeni durumlarda ilk adimi atmaktan cekinme"
       ]
     },
-    "solid": {
-      "name": "Sağlam Oyun",
-      "archetype": "Gelişen",
-      "description": "Rahatladıkça güçlenen sağlam bir çekicilik temelinin var. Yavaş başlayabilirsin ama açıldığında insanlar gerçek sıcaklığını ve zekânı görür. Rizz'in yavaş yanan tip — ve bu bir süper güç.",
+    "contender": {
+      "name": "Yarismaci",
+      "description": "Potansiyellle dolu bir meydan okuyucu! Harika anlar yaratirsiniz ve rahat oldugunuzda cazibeniz patlar. Daha fazla guven insa edin ve sahneye hakim olun.",
       "tips": [
-        "Isınmayı bekleme — en başından 'rahat halin'le ol",
-        "Özgüvenli beden dili pratik yap: göz teması, açık duruş, samimi gülümsemeler",
-        "Unutma: rizz performans değil, başkalarını iyi hissettirmek"
+        "Kucuk zaferler biriktir — her gun yeni biriyle sohbet baslat",
+        "Vucut dilini calis: goz temasi, acik durus, samimi gulumsemeler",
+        "Redddedilmekten korkma — her deneme kazanilan deneyimdir"
       ]
     },
-    "undercover": {
-      "name": "Gizli Rizz",
-      "archetype": "Uyuyan Ajan",
-      "description": "Çekiciliğin var — sadece yüzeyin altında gizli. Seni tanıdıktan sonra insanların sevdiği harika özelliklerin var ama ilk izlenimde her zaman parlamıyor. Rizz'in küçük gruplarda ve bire birde aktifleşiyor.",
+    "rookie": {
+      "name": "Cirrak",
+      "description": "Sahneye yeni ciktin! Heniuz cilalanmakta olan ham cazibe potansiyelin var. Daha fazla deneyimle hizla buyuyecek ve herkesi sasirtacaksin.",
       "tips": [
-        "Küçük başla: günde bir iltifatla özgüven kasını çalıştır",
-        "Sosyal durumlar için birkaç sohbet başlatıcısı hazırla",
-        "Başkalarına gerçek merak göster — takip soruları sor"
+        "Karizmatik insanlari incele — onlari cekici yapan seyi gozlemle",
+        "Tek basina pratik yap — aynada gulumsemeni ve durusunu kontrol et",
+        "Kucuk sohbetlerle basla — bugun baristana ekstra bir sey soyle"
       ]
     },
-    "unspoken": {
-      "name": "Söylenmemiş Rizz",
-      "archetype": "Gizem",
-      "description": "Enerjin kelimelerden daha yüksek sesle konuşuyor. En dışa dönük kişi olmayabilirsin ama sende merak uyandıran bir aura var. Bazı insanlar sessiz özgüvenine ve gizemli enerjine çekilir. Rizz'in ne söylediğinle değil, kim olduğunla ilgili.",
+    "wallflower": {
+      "name": "Duvar Cicegi",
+      "description": "Sessiz gozlemci! Sahne arkasinda parlayan biri. Derin ic caziben ortaya cikmasi zaman alir, ama yakinlasanlarda derin izler birakir.",
       "tips": [
-        "Sessiz gücünü kabullen — herkesin partinin yıldızı olması gerekmiyor",
-        "Yavaşça açılmaya çalış — her sohbette kişisel bir şey paylaş",
-        "Gizemin çekici ama bir duvara dönüşmesine izin verme"
+        "Sessiz caziben degerli — bunu sahiplen",
+        "Bire bir durumlardaki gucunu kullan",
+        "Konfor alanini yavass yavas genislet — her gun kucuk bir meydan okuma"
       ]
     }
   },
+  "appealStyles": {
+    "witty": "Zeki Buyuleyici — Zamanlama ve Zekanin Ustasi",
+    "deep": "Derin Buyuleyici — Samimiyet ve Derinligin Gucu",
+    "funny": "Mizahli Buyuleyici — Kahkahayla Kalp Kazanan"
+  },
   "result": {
-    "yourScore": "Rizz Puanın",
-    "description": "Açıklama",
-    "tips": "Çekicilik İpuçları",
+    "yourLevel": "Cazibe Seviyen",
+    "roundBreakdown": "Tur Bazinda Puanlar",
+    "description": "Stil Analizi",
+    "tips": "Cazibe Ipuclari",
     "retake": "Tekrar Dene"
   },
   "share": {
-    "twitter": "X'te Paylaş",
-    "copyUrl": "Bağlantıyı Kopyala",
-    "copied": "Bağlantı kopyalandı!",
-    "text": "Rizz Puanım: {score}/100 — {tier}! Seninki kaç?"
+    "twitter": "X'te Paylas",
+    "copyUrl": "Bagllantiyi Kopyala",
+    "copied": "Baglanti kopyalandi!",
+    "text": "Rizz Audition: {score}/100 — {level}! Senin cazibe seviyen ne?"
   },
   "a11y": {
-    "skip": "İçeriğe geç"
+    "skip": "Icerrige gec"
   }
 }
