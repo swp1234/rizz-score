@@ -157,7 +157,9 @@
     "roundBreakdown": "各回合得分",
     "description": "风格分析",
     "tips": "魅力提升贴士",
-    "retake": "再次挑战"
+    "retake": "再次挑战",
+    "moreTests": "探索更多测试",
+    "percentileStat": "仅有 <strong>{percent}%</strong> 的参与者获得了此魅力等级"
   },
   "share": {
     "twitter": "分享到X",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "跳至内容"
+  },
+  "related": {
+    "brainrotScore": "脑腐指数",
+    "npcTest": "NPC 测试",
+    "deluluScore": "妄想指数",
+    "ickFactor": "Ick 指数"
   }
 }

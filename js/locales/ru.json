@@ -157,7 +157,9 @@
     "roundBreakdown": "Разбивка по раундам",
     "description": "Анализ стиля",
     "tips": "Советы по обаянию",
-    "retake": "Пройти заново"
+    "retake": "Пройти заново",
+    "moreTests": "Попробуйте другие тесты",
+    "percentileStat": "Только <strong>{percent}%</strong> участников получили этот уровень обаяния"
   },
   "share": {
     "twitter": "Поделиться в X",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "Перейти к содержанию"
+  },
+  "related": {
+    "brainrotScore": "Брейнрот Счёт",
+    "npcTest": "NPC Тест",
+    "deluluScore": "Делулу Счёт",
+    "ickFactor": "Ick Фактор"
   }
 }

@@ -157,7 +157,9 @@
     "roundBreakdown": "Runden-Aufschlusselung",
     "description": "Stil-Analyse",
     "tips": "Charme-Tipps",
-    "retake": "Nochmal machen"
+    "retake": "Nochmal machen",
+    "moreTests": "Mehr Tests entdecken",
+    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer erreichten dieses Charme-Level"
   },
   "share": {
     "twitter": "Auf X teilen",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "Zum Inhalt springen"
+  },
+  "related": {
+    "brainrotScore": "Brainrot Score",
+    "npcTest": "NPC Test",
+    "deluluScore": "Delulu Score",
+    "ickFactor": "Ick Faktor"
   }
 }

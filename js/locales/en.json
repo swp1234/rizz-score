@@ -157,7 +157,9 @@
     "roundBreakdown": "Round Breakdown",
     "description": "Style Analysis",
     "tips": "Charm Tips",
-    "retake": "Retake Audition"
+    "retake": "Retake Audition",
+    "moreTests": "Explore More Tests",
+    "percentileStat": "Only <strong>{percent}%</strong> of participants got this rizz level"
   },
   "share": {
     "twitter": "Share on X",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "Skip to content"
+  },
+  "related": {
+    "brainrotScore": "Brainrot Score",
+    "npcTest": "NPC Test",
+    "deluluScore": "Delulu Score",
+    "ickFactor": "Ick Factor"
   }
 }

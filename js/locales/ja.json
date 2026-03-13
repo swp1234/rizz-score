@@ -157,7 +157,9 @@
     "roundBreakdown": "ラウンド別スコア",
     "description": "スタイル分析",
     "tips": "魅力アップのコツ",
-    "retake": "もう一度挑戦"
+    "retake": "もう一度挑戦",
+    "moreTests": "他のテストも試す",
+    "percentileStat": "参加者のうち <strong>{percent}%</strong> だけがこの魅力レベルを獲得しました"
   },
   "share": {
     "twitter": "Xでシェア",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "コンテンツへスキップ"
+  },
+  "related": {
+    "brainrotScore": "ブレインロット スコア",
+    "npcTest": "NPC テスト",
+    "deluluScore": "デルル スコア",
+    "ickFactor": "Ick ファクター"
   }
 }

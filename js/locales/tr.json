@@ -157,7 +157,9 @@
     "roundBreakdown": "Tur Bazinda Puanlar",
     "description": "Stil Analizi",
     "tips": "Cazibe Ipuclari",
-    "retake": "Tekrar Dene"
+    "retake": "Tekrar Dene",
+    "moreTests": "Daha Fazla Test Kesfet",
+    "percentileStat": "Katilimcilarin sadece <strong>{percent}%</strong>'i bu cazibe seviyesini aldi"
   },
   "share": {
     "twitter": "X'te Paylas",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "Icerrige gec"
+  },
+  "related": {
+    "brainrotScore": "Brainrot Skoru",
+    "npcTest": "NPC Testi",
+    "deluluScore": "Delulu Skoru",
+    "ickFactor": "Ick Faktoru"
   }
 }

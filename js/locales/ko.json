@@ -157,7 +157,9 @@
     "roundBreakdown": "라운드별 점수",
     "description": "스타일 분석",
     "tips": "매력 업 팁",
-    "retake": "다시 도전"
+    "retake": "다시 도전",
+    "moreTests": "다른 테스트도 해보세요",
+    "percentileStat": "참가자 중 <strong>{percent}%</strong>만이 이 매력 레벨을 받았습니다"
   },
   "share": {
     "twitter": "X에 공유",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "본문으로 건너뛰기"
+  },
+  "related": {
+    "brainrotScore": "브레인롯 점수",
+    "npcTest": "NPC 테스트",
+    "deluluScore": "델루루 점수",
+    "ickFactor": "Ick 팩터"
   }
 }

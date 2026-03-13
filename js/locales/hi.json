@@ -157,7 +157,9 @@
     "roundBreakdown": "राउंड-वार स्कोर",
     "description": "स्टाइल विश्लेषण",
     "tips": "आकर्षण टिप्स",
-    "retake": "फिर से ऑडिशन"
+    "retake": "फिर से ऑडिशन",
+    "moreTests": "और टेस्ट करें",
+    "percentileStat": "केवल <strong>{percent}%</strong> प्रतिभागियों को यह आकर्षण लेवल मिला"
   },
   "share": {
     "twitter": "X पर शेयर करें",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "सामग्री पर जाएं"
+  },
+  "related": {
+    "brainrotScore": "ब्रेनरॉट स्कोर",
+    "npcTest": "NPC टेस्ट",
+    "deluluScore": "डेलुलु स्कोर",
+    "ickFactor": "Ick फैक्टर"
   }
 }

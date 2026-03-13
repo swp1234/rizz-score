@@ -157,7 +157,9 @@
     "roundBreakdown": "Detalhamento por Rodada",
     "description": "Analise de Estilo",
     "tips": "Dicas de Charme",
-    "retake": "Refazer Audicao"
+    "retake": "Refazer Audicao",
+    "moreTests": "Explore Mais Testes",
+    "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes obtiveram este nivel de charme"
   },
   "share": {
     "twitter": "Compartilhar no X",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "Pular para o conteudo"
+  },
+  "related": {
+    "brainrotScore": "Brainrot Score",
+    "npcTest": "Teste NPC",
+    "deluluScore": "Delulu Score",
+    "ickFactor": "Ick Factor"
   }
 }

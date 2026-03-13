@@ -157,7 +157,9 @@
     "roundBreakdown": "Desglose por Ronda",
     "description": "Analisis de Estilo",
     "tips": "Consejos de Encanto",
-    "retake": "Repetir Audicion"
+    "retake": "Repetir Audicion",
+    "moreTests": "Explora Mas Tests",
+    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes obtuvo este nivel de encanto"
   },
   "share": {
     "twitter": "Compartir en X",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "Saltar al contenido"
+  },
+  "related": {
+    "brainrotScore": "Brainrot Score",
+    "npcTest": "Test NPC",
+    "deluluScore": "Delulu Score",
+    "ickFactor": "Ick Factor"
   }
 }

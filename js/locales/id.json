@@ -157,7 +157,9 @@
     "roundBreakdown": "Rincian per Ronde",
     "description": "Analisis Gaya",
     "tips": "Tips Pesona",
-    "retake": "Audisi Ulang"
+    "retake": "Audisi Ulang",
+    "moreTests": "Coba Tes Lainnya",
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang mendapat level pesona ini"
   },
   "share": {
     "twitter": "Bagikan di X",
@@ -167,5 +169,11 @@
   },
   "a11y": {
     "skip": "Lompat ke konten"
+  },
+  "related": {
+    "brainrotScore": "Skor Brainrot",
+    "npcTest": "Tes NPC",
+    "deluluScore": "Skor Delulu",
+    "ickFactor": "Faktor Ick"
   }
 }
