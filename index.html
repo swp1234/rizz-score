@@ -320,31 +320,57 @@
         <ul id="result-tips" class="tips-list"></ul>
       </div>
 
+      <div class="quick-actions-card" id="next-step-card">
+        <div class="quick-actions-summary">
+          <div class="quick-actions-icon" id="primary-related-emoji" aria-hidden="true">&#128172;</div>
+          <div class="quick-actions-copy">
+            <p class="quick-actions-label" data-i18n="result.nextStepLabel">Best Next Test</p>
+            <h3 class="quick-actions-title" id="primary-related-title">EQ Test</h3>
+            <p class="quick-actions-desc" id="primary-related-desc">Pair your charm with emotional timing and see what makes it land.</p>
+          </div>
+        </div>
+        <div class="quick-actions-buttons">
+          <a id="primary-related-cta" class="btn btn-primary" href="/eq-test/">
+            <span id="primary-related-cta-text">Take EQ Test</span>
+          </a>
+          <button id="related-jump-btn" class="btn btn-secondary" data-i18n="result.jumpToMore">See All Follow-ups</button>
+        </div>
+      </div>
+
       <div class="result-actions">
         <button id="share-twitter" class="btn btn-share btn-twitter" data-i18n="share.twitter">Share on X</button>
         <button id="share-copy" class="btn btn-share btn-copy" data-i18n="share.copyUrl">Copy Link</button>
         <button id="retake-btn" class="btn btn-primary" data-i18n="result.retake">Retake Audition</button>
       </div>
 
+      <div class="result-ad-slot" id="result-inline-ad" aria-label="Sponsored">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3600813755953882"
+             data-ad-slot="auto"
+             data-ad-format="horizontal"
+             data-full-width-responsive="true"></ins>
+      </div>
+
       <p class="percentile-stat" id="percentile-stat"></p>
       <div class="related-tests">
         <h3 data-i18n="result.moreTests">Explore More Tests</h3>
-        <div class="related-grid">
-          <a href="/brainrot-score/" class="related-card" style="--card-color: #e74c3c">
-            <span class="related-emoji">🧠💀</span>
-            <span class="related-name" data-i18n="related.brainrotScore">Brainrot Score</span>
+        <div class="related-grid" id="related-grid">
+          <a href="/eq-test/" class="related-card" data-related-key="eq-test" style="--card-color: #f97316">
+            <span class="related-emoji">&#10024;</span>
+            <span class="related-name" data-i18n="related.eqTest">EQ Test</span>
           </a>
-          <a href="/npc-test/" class="related-card" style="--card-color: #1abc9c">
-            <span class="related-emoji">🤖</span>
-            <span class="related-name" data-i18n="related.npcTest">NPC Test</span>
+          <a href="/attachment-style/" class="related-card" data-related-key="attachment-style" style="--card-color: #ec4899">
+            <span class="related-emoji">&#128150;</span>
+            <span class="related-name" data-i18n="related.attachmentStyle">Attachment Style</span>
           </a>
-          <a href="/delulu-score/" class="related-card" style="--card-color: #9b59b6">
-            <span class="related-emoji">💭</span>
-            <span class="related-name" data-i18n="related.deluluScore">Delulu Score</span>
+          <a href="/mbti-love/" class="related-card" data-related-key="mbti-love" style="--card-color: #8b5cf6">
+            <span class="related-emoji">&#128158;</span>
+            <span class="related-name" data-i18n="related.mbtiLove">MBTI Love</span>
           </a>
-          <a href="/ick-factor/" class="related-card" style="--card-color: #f39c12">
-            <span class="related-emoji">😬</span>
-            <span class="related-name" data-i18n="related.ickFactor">Ick Factor</span>
+          <a href="/blood-type/" class="related-card" data-related-key="blood-type" style="--card-color: #ef4444">
+            <span class="related-emoji">&#129656;</span>
+            <span class="related-name" data-i18n="related.bloodType">Blood Type</span>
           </a>
         </div>
       </div>

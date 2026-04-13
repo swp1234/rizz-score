@@ -159,7 +159,26 @@
     "tips": "Cazibe Ipuclari",
     "retake": "Tekrar Dene",
     "moreTests": "Daha Fazla Test Kesfet",
-    "percentileStat": "Katilimcilarin sadece <strong>{percent}%</strong>'i bu cazibe seviyesini aldi"
+    "percentileStat": "Katilimcilarin sadece <strong>{percent}%</strong>'i bu cazibe seviyesini aldi",
+    "nextStepLabel": "En ?yi S?radaki Test",
+    "jumpToMore": "T?m Devam Testlerini G?r",
+    "nextStep": {
+      "witty": {
+        "title": "?ekicili?ini EQ Test ile E?le?tir",
+        "desc": "Zaten nas?l etkileyece?ini biliyorsun. ?imdi duygusal zamanlaman?n bu kimyay? s?rd?r?p s?rd?remeyece?ini g?r.",
+        "cta": "EQ Test ??z"
+      },
+      "deep": {
+        "title": "Karizman? Attachment Style'a Ta??",
+        "desc": "?ekicili?in derinli?inden geliyor. Ba?lanma stilinin ger?ek ili?kileri nas?l ?ekillendirdi?ini g?r.",
+        "cta": "Attachment Style A?"
+      },
+      "funny": {
+        "title": "Kimyay? MBTI Love'a D?n??t?r",
+        "desc": "?nsanlar? e?lenceli enerjinle kazan?yorsun. Hangi MBTI a?k dinami?inin fl?rt stiline uydu?unu ke?fet.",
+        "cta": "MBTI Love Dene"
+      }
+    }
   },
   "share": {
     "twitter": "X'te Paylas",
@@ -174,6 +193,10 @@
     "brainrotScore": "Brainrot Skoru",
     "npcTest": "NPC Testi",
     "deluluScore": "Delulu Skoru",
-    "ickFactor": "Ick Faktoru"
+    "ickFactor": "Ick Faktoru",
+    "eqTest": "EQ Test",
+    "attachmentStyle": "Attachment Style",
+    "mbtiLove": "MBTI Love",
+    "bloodType": "Blood Type"
   }
 }

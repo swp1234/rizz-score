@@ -159,7 +159,26 @@
     "tips": "Dicas de Charme",
     "retake": "Refazer Audicao",
     "moreTests": "Explore Mais Testes",
-    "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes obtiveram este nivel de charme"
+    "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes obtiveram este nivel de charme",
+    "nextStepLabel": "Melhor pr?ximo teste",
+    "jumpToMore": "Ver mais testes",
+    "nextStep": {
+      "witty": {
+        "title": "Combine seu charme com EQ Test",
+        "desc": "Voc? j? sabe como conquistar. Agora veja se seu timing emocional mant?m a qu?mica viva.",
+        "cta": "Fazer EQ Test"
+      },
+      "deep": {
+        "title": "Leve seu carisma para Attachment Style",
+        "desc": "Seu magnetismo vem da profundidade. Veja como seu estilo de conex?o molda relacionamentos reais.",
+        "cta": "Abrir Attachment Style"
+      },
+      "funny": {
+        "title": "Transforme a qu?mica em MBTI Love",
+        "desc": "Voc? conquista com energia divertida. Descubra qual din?mica amorosa do MBTI combina com seu estilo.",
+        "cta": "Testar MBTI Love"
+      }
+    }
   },
   "share": {
     "twitter": "Compartilhar no X",
@@ -174,6 +193,10 @@
     "brainrotScore": "Brainrot Score",
     "npcTest": "Teste NPC",
     "deluluScore": "Delulu Score",
-    "ickFactor": "Ick Factor"
+    "ickFactor": "Ick Factor",
+    "eqTest": "EQ Test",
+    "attachmentStyle": "Attachment Style",
+    "mbtiLove": "MBTI Love",
+    "bloodType": "Blood Type"
   }
 }

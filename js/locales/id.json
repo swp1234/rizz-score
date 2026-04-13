@@ -159,7 +159,26 @@
     "tips": "Tips Pesona",
     "retake": "Audisi Ulang",
     "moreTests": "Coba Tes Lainnya",
-    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang mendapat level pesona ini"
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang mendapat level pesona ini",
+    "nextStepLabel": "Tes Selanjutnya yang Pas",
+    "jumpToMore": "Lihat Semua Tes Lanjutan",
+    "nextStep": {
+      "witty": {
+        "title": "Padukan Pesonamu dengan EQ Test",
+        "desc": "Kamu udah jago gombal. Sekarang lihat apakah timing emosionalmu bisa jaga chemistry-nya.",
+        "cta": "Ikuti EQ Test"
+      },
+      "deep": {
+        "title": "Bawa Pesonamu ke Attachment Style",
+        "desc": "Daya tarikmu berasal dari kedalaman. Lihat bagaimana gaya koneksimu membentuk hubungan nyata.",
+        "cta": "Buka Attachment Style"
+      },
+      "funny": {
+        "title": "Ubah Chemistry Jadi MBTI Love",
+        "desc": "Kamu memikat orang dengan energi seru. Lihat dinamika cinta MBTI apa yang pas dengan gaya flirting-mu.",
+        "cta": "Coba MBTI Love"
+      }
+    }
   },
   "share": {
     "twitter": "Bagikan di X",
@@ -174,6 +193,10 @@
     "brainrotScore": "Skor Brainrot",
     "npcTest": "Tes NPC",
     "deluluScore": "Skor Delulu",
-    "ickFactor": "Faktor Ick"
+    "ickFactor": "Faktor Ick",
+    "eqTest": "EQ Test",
+    "attachmentStyle": "Attachment Style",
+    "mbtiLove": "MBTI Love",
+    "bloodType": "Blood Type"
   }
 }

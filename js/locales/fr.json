@@ -159,7 +159,26 @@
     "tips": "Astuces Charme",
     "retake": "Refaire l'Audition",
     "moreTests": "Decouvrir Plus de Tests",
-    "percentileStat": "Seulement <strong>{percent}%</strong> des participants ont obtenu ce niveau de charme"
+    "percentileStat": "Seulement <strong>{percent}%</strong> des participants ont obtenu ce niveau de charme",
+    "nextStepLabel": "Meilleur test suivant",
+    "jumpToMore": "Voir tous les tests",
+    "nextStep": {
+      "witty": {
+        "title": "Associe ton charisme au EQ Test",
+        "desc": "Tu sais d?j? comment conclure. D?couvre si ton timing ?motionnel maintient l'alchimie.",
+        "cta": "Faire le EQ Test"
+      },
+      "deep": {
+        "title": "Exprime ton charme dans Attachment Style",
+        "desc": "Ton pouvoir d'attraction vient de ta profondeur. D?couvre comment ton style d'attachement fa?onne tes vraies relations.",
+        "cta": "Ouvrir Attachment Style"
+      },
+      "funny": {
+        "title": "Transforme l'alchimie en MBTI Love",
+        "desc": "Tu s?duis avec une ?nergie fun. D?couvre quelle dynamique amoureuse MBTI correspond ? ton style de drague.",
+        "cta": "Essayer MBTI Love"
+      }
+    }
   },
   "share": {
     "twitter": "Partager sur X",
@@ -174,6 +193,10 @@
     "brainrotScore": "Score Brainrot",
     "npcTest": "Test NPC",
     "deluluScore": "Score Delulu",
-    "ickFactor": "Facteur Ick"
+    "ickFactor": "Facteur Ick",
+    "eqTest": "EQ Test",
+    "attachmentStyle": "Attachment Style",
+    "mbtiLove": "MBTI Love",
+    "bloodType": "Blood Type"
   }
 }

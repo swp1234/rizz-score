@@ -85,6 +85,108 @@
     var shareCopy = document.getElementById('share-copy');
     var meterArc = document.getElementById('meter-arc');
     var scoreNumber = document.getElementById('score-number');
+    var relatedGrid = document.getElementById('related-grid');
+    var primaryRelatedEmoji = document.getElementById('primary-related-emoji');
+    var primaryRelatedTitle = document.getElementById('primary-related-title');
+    var primaryRelatedDesc = document.getElementById('primary-related-desc');
+    var primaryRelatedCta = document.getElementById('primary-related-cta');
+    var primaryRelatedCtaText = document.getElementById('primary-related-cta-text');
+    var relatedJumpBtn = document.getElementById('related-jump-btn');
+    var resultInlineAd = document.getElementById('result-inline-ad');
+
+    var currentResult = null;
+    var resultInlineAdLoaded = false;
+    var recommendationMap = {
+      witty: ['eq-test', 'mbti-love', 'attachment-style', 'blood-type'],
+      deep: ['attachment-style', 'eq-test', 'blood-type', 'mbti-love'],
+      funny: ['mbti-love', 'blood-type', 'eq-test', 'attachment-style']
+    };
+
+    function trackEvent(name, params) {
+      if (typeof gtag !== 'function') return;
+      gtag('event', name, params || {});
+    }
+
+    function prioritizeRelatedCards(appealStyle) {
+      if (!relatedGrid) return;
+
+      var cards = Array.prototype.slice.call(relatedGrid.querySelectorAll('.related-card'));
+      var order = recommendationMap[appealStyle] || recommendationMap.witty;
+      var rankMap = {};
+
+      order.forEach(function (key, index) {
+        rankMap[key] = index;
+      });
+
+      cards.sort(function (a, b) {
+        var aKey = a.getAttribute('data-related-key') || '';
+        var bKey = b.getAttribute('data-related-key') || '';
+        var aRank = Object.prototype.hasOwnProperty.call(rankMap, aKey) ? rankMap[aKey] : 999;
+        var bRank = Object.prototype.hasOwnProperty.call(rankMap, bKey) ? rankMap[bKey] : 999;
+        return aRank - bRank;
+      });
+
+      cards.forEach(function (card, index) {
+        card.classList.toggle('is-featured', index < 2);
+        card.setAttribute('data-rank', String(index + 1));
+        relatedGrid.appendChild(card);
+      });
+    }
+
+    function updatePrimaryRecommendation(appealStyle) {
+      if (!relatedGrid || !primaryRelatedTitle || !primaryRelatedDesc || !primaryRelatedCta || !primaryRelatedCtaText || !primaryRelatedEmoji) {
+        return;
+      }
+
+      var firstCard = relatedGrid.querySelector('.related-card');
+      if (!firstCard) return;
+
+      var titleKey = 'result.nextStep.' + appealStyle + '.title';
+      var descKey = 'result.nextStep.' + appealStyle + '.desc';
+      var ctaKey = 'result.nextStep.' + appealStyle + '.cta';
+      var titleEl = firstCard.querySelector('.related-name');
+      var emojiEl = firstCard.querySelector('.related-emoji');
+      var cardTitle = titleEl ? titleEl.textContent.trim() : firstCard.getAttribute('data-related-key') || 'Recommended Test';
+      var href = firstCard.getAttribute('href') || '#';
+      var emoji = emojiEl ? emojiEl.textContent.trim() : '\uD83D\uDCAC';
+      var cardColor = firstCard.style.getPropertyValue('--card-color') || '';
+
+      primaryRelatedTitle.textContent = i18n.t(titleKey) !== titleKey ? i18n.t(titleKey) : cardTitle;
+      primaryRelatedDesc.textContent = i18n.t(descKey) !== descKey ? i18n.t(descKey) : cardTitle;
+      primaryRelatedCtaText.textContent = i18n.t(ctaKey) !== ctaKey ? i18n.t(ctaKey) : cardTitle;
+      primaryRelatedEmoji.textContent = emoji;
+      primaryRelatedCta.setAttribute('href', href);
+      primaryRelatedCta.setAttribute('data-related-key', firstCard.getAttribute('data-related-key') || '');
+      primaryRelatedCta.setAttribute('data-related-rank', firstCard.getAttribute('data-rank') || '1');
+
+      if (cardColor) {
+        primaryRelatedTitle.style.setProperty('--cta-color', cardColor);
+        primaryRelatedCta.style.setProperty('--cta-color', cardColor);
+        var cardContainer = document.getElementById('next-step-card');
+        if (cardContainer) {
+          cardContainer.style.setProperty('--cta-color', cardColor);
+        }
+      }
+    }
+
+    function ensureResultAdLoaded() {
+      if (resultInlineAdLoaded || !resultInlineAd) return;
+      var adNode = resultInlineAd.querySelector('.adsbygoogle');
+      if (!adNode) return;
+
+      try {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        resultInlineAdLoaded = true;
+      } catch (error) {
+        // Ad blockers or delayed AdSense init are non-fatal here.
+      }
+    }
+
+    function getShareUrl() {
+      var url = new URL(window.location.origin + window.location.pathname);
+      url.searchParams.set('lang', i18n.currentLang || 'en');
+      return url.toString();
+    }
 
     // Add SVG gradient definition
     var svg = document.querySelector('.score-meter');
@@ -156,8 +258,14 @@
       totalWit = 0;
       totalDepth = 0;
       totalHumor = 0;
+      currentResult = null;
       liveScore.textContent = '0';
       resetJudgeDisplay();
+      trackEvent('quiz_start', {
+        event_category: 'rizz_score',
+        event_label: i18n.currentLang,
+        value: TOTAL_ROUNDS
+      });
       showScreen(auditionScreen);
       renderRound(0);
     });
@@ -213,6 +321,16 @@
       totalWit += witScore;
       totalDepth += depthScore;
       totalHumor += humorScore;
+      trackEvent('rizz_choice_select', {
+        event_category: 'rizz_score',
+        event_label: 'round_' + (roundIndex + 1),
+        round_number: roundIndex + 1,
+        choice_index: choiceIndex + 1,
+        wit_score: witScore,
+        depth_score: depthScore,
+        humor_score: humorScore,
+        value: choiceIndex + 1
+      });
 
       // Highlight selected
       var buttons = choicesContainer.querySelectorAll('.choice-btn');
@@ -344,6 +462,14 @@
 
       var level = getLevel(percent);
       var appealStyle = getAppealStyle();
+      currentResult = {
+        level: level,
+        appealStyle: appealStyle,
+        percent: percent
+      };
+
+      prioritizeRelatedCards(appealStyle);
+      updatePrimaryRecommendation(appealStyle);
 
       // Emoji
       document.getElementById('result-emoji').textContent = levelEmojis[level];
@@ -405,14 +531,20 @@
         pStat.innerHTML = template.replace('{percent}', pctVal);
       }
 
-      // GA4 event
-      if (typeof gtag === 'function') {
-        gtag('event', 'quiz_complete', {
-          event_category: 'rizz_score',
-          event_label: level,
-          value: percent
-        });
-      }
+      trackEvent('result_view', {
+        event_category: 'rizz_score',
+        event_label: level,
+        appeal_style: appealStyle,
+        value: percent
+      });
+      trackEvent('quiz_complete', {
+        event_category: 'rizz_score',
+        event_label: level,
+        appeal_style: appealStyle,
+        value: percent
+      });
+
+      ensureResultAdLoaded();
     }
 
     // --- Share: Twitter ---
@@ -425,17 +557,23 @@
       var emoji = levelEmojis[level];
       var shareText = i18n.t('share.text');
       var text = emoji + ' ' + shareText.replace('{score}', percent).replace('{level}', levelName);
-      var url = 'https://dopabrain.com/rizz-score/';
+      var url = getShareUrl();
       window.open(
         'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url),
         '_blank',
         'noopener'
       );
+      trackEvent('rizz_share_click', {
+        event_category: 'rizz_score',
+        event_label: 'twitter',
+        result_level: currentResult ? currentResult.level : level,
+        appeal_style: currentResult ? currentResult.appealStyle : getAppealStyle()
+      });
     });
 
     // --- Share: Copy Link ---
     shareCopy.addEventListener('click', function () {
-      var url = 'https://dopabrain.com/rizz-score/';
+      var url = getShareUrl();
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(url).then(function () {
           showToast(i18n.t('share.copied'));
@@ -449,7 +587,53 @@
         document.body.removeChild(ta);
         showToast(i18n.t('share.copied'));
       }
+      trackEvent('rizz_share_click', {
+        event_category: 'rizz_score',
+        event_label: 'copy',
+        result_level: currentResult ? currentResult.level : 'unknown',
+        appeal_style: currentResult ? currentResult.appealStyle : 'unknown'
+      });
     });
+
+    if (primaryRelatedCta) {
+      primaryRelatedCta.addEventListener('click', function () {
+        trackEvent('rizz_primary_cta_click', {
+          event_category: 'rizz_score',
+          event_label: this.getAttribute('data-related-key') || this.getAttribute('href'),
+          result_level: currentResult ? currentResult.level : 'unknown',
+          appeal_style: currentResult ? currentResult.appealStyle : 'unknown',
+          related_rank: this.getAttribute('data-related-rank') || '1'
+        });
+      });
+    }
+
+    if (relatedJumpBtn) {
+      relatedJumpBtn.addEventListener('click', function () {
+        var relatedSection = document.querySelector('.related-tests');
+        if (relatedSection) {
+          relatedSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        trackEvent('rizz_related_jump_click', {
+          event_category: 'rizz_score',
+          event_label: currentResult ? currentResult.appealStyle : 'unknown',
+          result_level: currentResult ? currentResult.level : 'unknown'
+        });
+      });
+    }
+
+    if (relatedGrid) {
+      relatedGrid.addEventListener('click', function (event) {
+        var card = event.target.closest('.related-card');
+        if (!card) return;
+        trackEvent('rizz_related_click', {
+          event_category: 'rizz_score',
+          event_label: card.getAttribute('data-related-key') || card.getAttribute('href'),
+          result_level: currentResult ? currentResult.level : 'unknown',
+          appeal_style: currentResult ? currentResult.appealStyle : 'unknown',
+          related_rank: card.getAttribute('data-rank') || 'unknown'
+        });
+      });
+    }
 
     // --- Toast ---
     function showToast(message) {
@@ -475,11 +659,17 @@
 
     // --- Retake ---
     retakeBtn.addEventListener('click', function () {
+      trackEvent('rizz_retry_click', {
+        event_category: 'rizz_score',
+        event_label: currentResult ? currentResult.level : 'unknown',
+        appeal_style: currentResult ? currentResult.appealStyle : 'unknown'
+      });
       currentRound = 0;
       roundScores = [];
       totalWit = 0;
       totalDepth = 0;
       totalHumor = 0;
+      currentResult = null;
       showScreen(startScreen);
     });
 

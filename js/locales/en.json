@@ -159,7 +159,26 @@
     "tips": "Charm Tips",
     "retake": "Retake Audition",
     "moreTests": "Explore More Tests",
-    "percentileStat": "Only <strong>{percent}%</strong> of participants got this rizz level"
+    "percentileStat": "Only <strong>{percent}%</strong> of participants got this rizz level",
+    "nextStepLabel": "Best Next Test",
+    "jumpToMore": "See All Follow-ups",
+    "nextStep": {
+      "witty": {
+        "title": "Pair Your Rizz With EQ Test",
+        "desc": "You already know how to land the line. Now see if your emotional timing keeps the chemistry going.",
+        "cta": "Take EQ Test"
+      },
+      "deep": {
+        "title": "Take Your Charm Into Attachment Style",
+        "desc": "Your pull comes from depth. See how your connection style shapes real relationships.",
+        "cta": "Open Attachment Style"
+      },
+      "funny": {
+        "title": "Turn Chemistry Into MBTI Love",
+        "desc": "You win people over with fun energy. See which MBTI love dynamic fits your flirting style.",
+        "cta": "Try MBTI Love"
+      }
+    }
   },
   "share": {
     "twitter": "Share on X",
@@ -174,6 +193,10 @@
     "brainrotScore": "Brainrot Score",
     "npcTest": "NPC Test",
     "deluluScore": "Delulu Score",
-    "ickFactor": "Ick Factor"
+    "ickFactor": "Ick Factor",
+    "eqTest": "EQ Test",
+    "attachmentStyle": "Attachment Style",
+    "mbtiLove": "MBTI Love",
+    "bloodType": "Blood Type"
   }
 }

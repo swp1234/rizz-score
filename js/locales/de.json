@@ -159,7 +159,26 @@
     "tips": "Charme-Tipps",
     "retake": "Nochmal machen",
     "moreTests": "Mehr Tests entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer erreichten dieses Charme-Level"
+    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer erreichten dieses Charme-Level",
+    "nextStepLabel": "Bester n?chster Test",
+    "jumpToMore": "Alle weiteren Tests sehen",
+    "nextStep": {
+      "witty": {
+        "title": "Kombiniere deinen Rizz mit EQ Test",
+        "desc": "Du wei?t schon, wie man punktet. Finde heraus, ob dein emotionales Timing die Chemie am Laufen h?lt.",
+        "cta": "EQ Test machen"
+      },
+      "deep": {
+        "title": "Bring deinen Charme in Attachment Style ein",
+        "desc": "Deine Anziehungskraft kommt aus der Tiefe. Sieh dir an, wie dein Bindungsstil echte Beziehungen formt.",
+        "cta": "Attachment Style ?ffnen"
+      },
+      "funny": {
+        "title": "Mach aus Chemie MBTI Love",
+        "desc": "Du gewinnst Leute mit spa?iger Energie. Finde heraus, welche MBTI-Liebesdynamik zu deinem Flirtstil passt.",
+        "cta": "MBTI Love ausprobieren"
+      }
+    }
   },
   "share": {
     "twitter": "Auf X teilen",
@@ -174,6 +193,10 @@
     "brainrotScore": "Brainrot Score",
     "npcTest": "NPC Test",
     "deluluScore": "Delulu Score",
-    "ickFactor": "Ick Faktor"
+    "ickFactor": "Ick Faktor",
+    "eqTest": "EQ Test",
+    "attachmentStyle": "Attachment Style",
+    "mbtiLove": "MBTI Love",
+    "bloodType": "Blood Type"
   }
 }

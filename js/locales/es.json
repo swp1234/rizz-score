@@ -159,7 +159,26 @@
     "tips": "Consejos de Encanto",
     "retake": "Repetir Audicion",
     "moreTests": "Explora Mas Tests",
-    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes obtuvo este nivel de encanto"
+    "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes obtuvo este nivel de encanto",
+    "nextStepLabel": "Mejor siguiente test",
+    "jumpToMore": "Ver m?s tests",
+    "nextStep": {
+      "witty": {
+        "title": "Combina tu encanto con EQ Test",
+        "desc": "Ya sabes c?mo conquistar. Ahora descubre si tu timing emocional mantiene la qu?mica.",
+        "cta": "Hacer EQ Test"
+      },
+      "deep": {
+        "title": "Lleva tu carisma a Attachment Style",
+        "desc": "Tu atractivo viene de tu profundidad. Mira c?mo tu estilo de conexi?n moldea las relaciones reales.",
+        "cta": "Abrir Attachment Style"
+      },
+      "funny": {
+        "title": "Convierte la qu?mica en MBTI Love",
+        "desc": "Conquistas con energ?a divertida. Descubre qu? din?mica de MBTI encaja con tu estilo de ligar.",
+        "cta": "Probar MBTI Love"
+      }
+    }
   },
   "share": {
     "twitter": "Compartir en X",
@@ -174,6 +193,10 @@
     "brainrotScore": "Brainrot Score",
     "npcTest": "Test NPC",
     "deluluScore": "Delulu Score",
-    "ickFactor": "Ick Factor"
+    "ickFactor": "Ick Factor",
+    "eqTest": "EQ Test",
+    "attachmentStyle": "Attachment Style",
+    "mbtiLove": "MBTI Love",
+    "bloodType": "Blood Type"
   }
 }
